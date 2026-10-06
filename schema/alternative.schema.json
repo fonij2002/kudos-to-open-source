@@ -15,7 +15,6 @@
     "category": { "type": "string", "minLength": 1 },
     "proprietary": { "type": "string", "minLength": 1 },
     "project_id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
-    "fit": { "enum": ["closest", "strong", "partial"] },
     "note_key": { "type": "string", "minLength": 1 }
   },
   "additionalProperties": false

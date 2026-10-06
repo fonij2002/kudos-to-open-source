@@ -1,2374 +1,1948 @@
-# Canonical project metadata. Edit once even when a project appears in multiple mappings.
-[
-  {
-    "id": "apache-superset",
-    "name": "Apache Superset",
-    "url": "https://github.com/apache/superset",
-    "setup_url": "https://superset.apache.org/docs/quickstart/",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "appflowy",
-    "name": "AppFlowy",
-    "url": "https://github.com/AppFlowy-IO/AppFlowy",
-    "setup_url": "https://github.com/AppFlowy-IO/AppFlowy#readme",
-    "license": "AGPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "local-first-sync"
-    ]
-  },
-  {
-    "id": "appsmith",
-    "name": "Appsmith",
-    "url": "https://github.com/appsmithorg/appsmith",
-    "setup_url": "https://docs.appsmith.com/getting-started/setup/installation-guides",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "server-admin"
-    ]
-  },
-  {
-    "id": "ardour",
-    "name": "Ardour",
-    "url": "https://ardour.org/",
-    "setup_url": "https://ardour.org/download.html",
-    "license": "GPL-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "advanced-workflow",
-      "paid-official-builds"
-    ]
-  },
-  {
-    "id": "audacity",
-    "name": "Audacity",
-    "url": "https://www.audacityteam.org/",
-    "setup_url": "https://www.audacityteam.org/download/",
-    "license": "GPL-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused",
-      "narrow-scope"
-    ]
-  },
-  {
-    "id": "bigbluebutton",
-    "name": "BigBlueButton",
-    "url": "https://github.com/bigbluebutton/bigbluebutton",
-    "setup_url": "https://docs.bigbluebutton.org/administration/install/",
-    "license": "LGPL",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "resource-heavy",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "bitwarden",
-    "name": "Bitwarden",
-    "url": "https://github.com/bitwarden/server",
-    "setup_url": "https://bitwarden.com/help/install-on-premise-linux/",
-    "license": "AGPL-3.0 / mixed",
-    "model": "open-core",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "android",
-      "ios",
-      "web"
-    ],
-    "limitations": [
-      "open-core",
-      "enterprise-paid"
-    ]
-  },
-  {
-    "id": "blender",
-    "name": "Blender",
-    "url": "https://www.blender.org/",
-    "setup_url": "https://www.blender.org/download/",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "advanced-workflow",
-      "gpu-recommended"
-    ]
-  },
-  {
-    "id": "bookstack",
-    "name": "BookStack",
-    "url": "https://github.com/BookStackApp/BookStack",
-    "setup_url": "https://www.bookstackapp.com/docs/admin/installation/",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "bruno",
-    "name": "Bruno",
-    "url": "https://github.com/usebruno/bruno",
-    "setup_url": "https://www.usebruno.com/downloads",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "cal-com",
-    "name": "Cal.com",
-    "url": "https://github.com/calcom/cal.com",
-    "setup_url": "https://cal.com/docs/self-hosting/installation",
-    "license": "AGPL-3.0 / mixed",
-    "model": "open-core",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "open-core",
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "caprover",
-    "name": "CapRover",
-    "url": "https://github.com/caprover/caprover",
-    "setup_url": "https://caprover.com/docs/get-started.html",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "linux-server",
-      "docker-recommended",
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "chatwoot",
-    "name": "Chatwoot",
-    "url": "https://github.com/chatwoot/chatwoot",
-    "setup_url": "https://www.chatwoot.com/docs/self-hosted/deployment/",
-    "license": "MIT / mixed",
-    "model": "open-core",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "open-core",
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "clickhouse",
-    "name": "ClickHouse",
-    "url": "https://github.com/ClickHouse/ClickHouse",
-    "setup_url": "https://clickhouse.com/docs/install",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "linux",
-      "macos",
-      "docker"
-    ],
-    "limitations": [
-      "server-admin",
-      "resource-heavy"
-    ]
-  },
-  {
-    "id": "colima",
-    "name": "Colima",
-    "url": "https://github.com/abiosoft/colima",
-    "setup_url": "https://github.com/abiosoft/colima#readme",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "mac-linux-only",
-      "cli-first"
-    ]
-  },
-  {
-    "id": "collabora-online",
-    "name": "Collabora Online",
-    "url": "https://github.com/CollaboraOnline/online",
-    "setup_url": "https://sdk.collaboraonline.com/docs/installation/",
-    "license": "MPL-2.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "continue",
-    "name": "Continue",
-    "url": "https://github.com/continuedev/continue",
-    "setup_url": "https://github.com/continuedev/continue#readme",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "vscode",
-      "jetbrains"
-    ],
-    "limitations": [
-      "ide-extension",
-      "provider-required",
-      "upstream-read-only"
-    ]
-  },
-  {
-    "id": "coolify",
-    "name": "Coolify",
-    "url": "https://github.com/coollabsio/coolify",
-    "setup_url": "https://coolify.io/docs/get-started/installation",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "linux-server",
-      "docker-recommended",
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "darktable",
-    "name": "darktable",
-    "url": "https://github.com/darktable-org/darktable",
-    "setup_url": "https://www.darktable.org/install/",
-    "license": "GPL-3.0-or-later",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "diagrams-net",
-    "name": "diagrams.net",
-    "url": "https://github.com/jgraph/drawio",
-    "setup_url": "https://github.com/jgraph/drawio#readme",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "digikam",
-    "name": "digiKam",
-    "url": "https://www.digikam.org/",
-    "setup_url": "https://www.digikam.org/download/",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "discourse",
-    "name": "Discourse",
-    "url": "https://github.com/discourse/discourse",
-    "setup_url": "https://github.com/discourse/discourse#readme",
-    "license": "GPL-2.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "resource-heavy",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "docuseal",
-    "name": "DocuSeal",
-    "url": "https://github.com/docusealco/docuseal",
-    "setup_url": "https://github.com/docusealco/docuseal#readme",
-    "license": "AGPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "dokku",
-    "name": "Dokku",
-    "url": "https://github.com/dokku/dokku",
-    "setup_url": "https://dokku.com/docs/getting-started/installation/",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "linux-only",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "drupal",
-    "name": "Drupal",
-    "url": "https://git.drupalcode.org/project/drupal",
-    "setup_url": "https://www.drupal.org/docs/getting-started/installing-drupal",
-    "license": "GPL-2.0-or-later",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "advanced-workflow",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "duckdb",
-    "name": "DuckDB",
-    "url": "https://github.com/duckdb/duckdb",
-    "setup_url": "https://duckdb.org/docs/installation/",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "embedded-local-first"
-    ]
-  },
-  {
-    "id": "element",
-    "name": "Element",
-    "url": "https://github.com/element-hq/element-web",
-    "setup_url": "https://element.io/download",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "android",
-      "ios",
-      "web"
-    ],
-    "limitations": [
-      "matrix-account-or-server"
-    ]
-  },
-  {
-    "id": "erpnext",
-    "name": "ERPNext",
-    "url": "https://github.com/frappe/erpnext",
-    "setup_url": "https://github.com/frappe/erpnext#readme",
-    "license": "GPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "excalidraw",
-    "name": "Excalidraw",
-    "url": "https://github.com/excalidraw/excalidraw",
-    "setup_url": "https://github.com/excalidraw/excalidraw#readme",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker"
-    ],
-    "limitations": [
-      "browser-first",
-      "advanced-features-limited"
-    ]
-  },
-  {
-    "id": "forgejo",
-    "name": "Forgejo",
-    "url": "https://codeberg.org/forgejo/forgejo",
-    "setup_url": "https://forgejo.org/docs/latest/admin/installation/",
-    "license": "GPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "freecad",
-    "name": "FreeCAD",
-    "url": "https://www.freecad.org/",
-    "setup_url": "https://www.freecad.org/downloads.php",
-    "license": "LGPL-2.0-or-later",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "file-compatibility",
-      "advanced-workflow"
-    ]
-  },
-  {
-    "id": "geany",
-    "name": "Geany",
-    "url": "https://github.com/geany/geany",
-    "setup_url": "https://www.geany.org/download/releases/",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "ghost",
-    "name": "Ghost",
-    "url": "https://github.com/TryGhost/Ghost",
-    "setup_url": "https://ghost.org/docs/install/",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "server-admin",
-      "publishing-focused"
-    ]
-  },
-  {
-    "id": "gimp",
-    "name": "GIMP",
-    "url": "https://www.gimp.org/",
-    "setup_url": "https://www.gimp.org/downloads/",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "gitea",
-    "name": "Gitea",
-    "url": "https://github.com/go-gitea/gitea",
-    "setup_url": "https://docs.gitea.com/installation/install-from-binary",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "gitlab-community-edition",
-    "name": "GitLab Community Edition",
-    "url": "https://gitlab.com/gitlab-org/gitlab-foss",
-    "setup_url": "https://about.gitlab.com/install/",
-    "license": "MIT",
-    "model": "open-core",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "open-core",
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "glaxnimate",
-    "name": "Glaxnimate",
-    "url": "https://github.com/mbasaglia/glaxnimate",
-    "setup_url": "https://glaxnimate.mattbas.org/download/",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused",
-      "narrow-scope"
-    ]
-  },
-  {
-    "id": "glitchtip",
-    "name": "GlitchTip",
-    "url": "https://gitlab.com/glitchtip/glitchtip-backend",
-    "setup_url": "https://glitchtip.com/documentation/install",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "gnu-octave",
-    "name": "GNU Octave",
-    "url": "https://octave.org/",
-    "setup_url": "https://octave.org/download",
-    "license": "GPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "gnu-pspp",
-    "name": "GNU PSPP",
-    "url": "https://www.gnu.org/software/pspp/",
-    "setup_url": "https://www.gnu.org/software/pspp/get.html",
-    "license": "GPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "gnucash",
-    "name": "GnuCash",
-    "url": "https://github.com/Gnucash/gnucash",
-    "setup_url": "https://www.gnucash.org/download.phtml",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused",
-      "collaboration-limited"
-    ]
-  },
-  {
-    "id": "grafana",
-    "name": "Grafana",
-    "url": "https://github.com/grafana/grafana",
-    "setup_url": "https://grafana.com/docs/grafana/latest/setup-grafana/installation/",
-    "license": "AGPL-3.0",
-    "model": "open-core",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "docker",
-      "web"
-    ],
-    "limitations": [
-      "open-core",
-      "external-backend"
-    ]
-  },
-  {
-    "id": "grapesjs",
-    "name": "GrapesJS",
-    "url": "https://github.com/GrapesJS/grapesjs",
-    "setup_url": "https://grapesjs.com/docs/getting-started.html",
-    "license": "BSD-3-Clause",
-    "model": "open-source",
-    "platforms": [
-      "javascript",
-      "web"
-    ],
-    "limitations": [
-      "web-library"
-    ]
-  },
-  {
-    "id": "grass-gis",
-    "name": "GRASS GIS",
-    "url": "https://github.com/OSGeo/grass",
-    "setup_url": "https://grass.osgeo.org/download/",
-    "license": "GPL-2.0-or-later",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "home-assistant",
-    "name": "Home Assistant",
-    "url": "https://github.com/home-assistant/core",
-    "setup_url": "https://www.home-assistant.io/installation/",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "hardware-integration-varies",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "hoppscotch",
-    "name": "Hoppscotch",
-    "url": "https://github.com/hoppscotch/hoppscotch",
-    "setup_url": "https://docs.hoppscotch.io/documentation/clients/desktop",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "browser-first"
-    ]
-  },
-  {
-    "id": "huginn",
-    "name": "Huginn",
-    "url": "https://github.com/huginn/huginn",
-    "setup_url": "https://github.com/huginn/huginn#readme",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "advanced-setup",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "immich",
-    "name": "Immich",
-    "url": "https://github.com/immich-app/immich",
-    "setup_url": "https://immich.app/docs/install/docker-compose",
-    "license": "AGPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "inkscape",
-    "name": "Inkscape",
-    "url": "https://inkscape.org/",
-    "setup_url": "https://inkscape.org/release/",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "jellyfin",
-    "name": "Jellyfin",
-    "url": "https://github.com/jellyfin/jellyfin",
-    "setup_url": "https://jellyfin.org/docs/general/installation/",
-    "license": "GPL-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "android",
-      "ios",
-      "web",
-      "docker"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "jitsi-meet",
-    "name": "Jitsi Meet",
-    "url": "https://github.com/jitsi/jitsi-meet",
-    "setup_url": "https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart/",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "android",
-      "ios",
-      "docker"
-    ],
-    "limitations": [
-      "browser-first",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "joplin",
-    "name": "Joplin",
-    "url": "https://github.com/laurent22/joplin",
-    "setup_url": "https://joplinapp.org/help/install/",
-    "license": "AGPL-3.0-or-later / mixed by subdirectory",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "local-first-sync"
-    ]
-  },
-  {
-    "id": "kanboard",
-    "name": "Kanboard",
-    "url": "https://github.com/kanboard/kanboard",
-    "setup_url": "https://docs.kanboard.org/v1/admin/installation/",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "kate",
-    "name": "Kate",
-    "url": "https://invent.kde.org/utilities/kate",
-    "setup_url": "https://kate-editor.org/get-it/",
-    "license": "LGPL/GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "kdenlive",
-    "name": "Kdenlive",
-    "url": "https://kdenlive.org/",
-    "setup_url": "https://kdenlive.org/download/",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused",
-      "gpu-recommended"
-    ]
-  },
-  {
-    "id": "keepassxc",
-    "name": "KeePassXC",
-    "url": "https://github.com/keepassxreboot/keepassxc",
-    "setup_url": "https://keepassxc.org/download/",
-    "license": "GPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused",
-      "local-first-sync"
-    ]
-  },
-  {
-    "id": "keycloak",
-    "name": "Keycloak",
-    "url": "https://github.com/keycloak/keycloak",
-    "setup_url": "https://www.keycloak.org/getting-started/getting-started-docker",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "krita",
-    "name": "Krita",
-    "url": "https://github.com/KDE/krita",
-    "setup_url": "https://krita.org/en/download/krita-desktop/",
-    "license": "GPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "android"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "leaflet",
-    "name": "Leaflet",
-    "url": "https://github.com/Leaflet/Leaflet",
-    "setup_url": "https://leafletjs.com/examples/quick-start/",
-    "license": "BSD-2-Clause",
-    "model": "open-source",
-    "platforms": [
-      "javascript",
-      "web"
-    ],
-    "limitations": [
-      "web-library"
-    ]
-  },
-  {
-    "id": "leantime",
-    "name": "Leantime",
-    "url": "https://github.com/Leantime/leantime",
-    "setup_url": "https://docs.leantime.io/installation/",
-    "license": "AGPL / mixed",
-    "model": "open-core",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "open-core",
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "librecad",
-    "name": "LibreCAD",
-    "url": "https://github.com/LibreCAD/LibreCAD",
-    "setup_url": "https://librecad.org/#download",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "file-compatibility",
-      "advanced-workflow"
-    ]
-  },
-  {
-    "id": "libreoffice",
-    "name": "LibreOffice",
-    "url": "https://www.libreoffice.org/",
-    "setup_url": "https://www.libreoffice.org/download/download-libreoffice/",
-    "license": "MPL-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "limesurvey",
-    "name": "LimeSurvey",
-    "url": "https://github.com/LimeSurvey/LimeSurvey",
-    "setup_url": "https://manual.limesurvey.org/Installation_-_LimeSurvey_CE",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "listmonk",
-    "name": "listmonk",
-    "url": "https://github.com/knadh/listmonk",
-    "setup_url": "https://listmonk.app/docs/installation/",
-    "license": "AGPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "server-admin",
-      "newsletter-focused"
-    ]
-  },
-  {
-    "id": "lmms",
-    "name": "LMMS",
-    "url": "https://github.com/LMMS/lmms",
-    "setup_url": "https://lmms.io/download",
-    "license": "GPL-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused",
-      "plugin-ecosystem"
-    ]
-  },
-  {
-    "id": "logseq",
-    "name": "Logseq",
-    "url": "https://github.com/logseq/logseq",
-    "setup_url": "https://github.com/logseq/logseq#readme",
-    "license": "AGPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "local-first-sync"
-    ]
-  },
-  {
-    "id": "losslesscut",
-    "name": "LosslessCut",
-    "url": "https://github.com/mifi/lossless-cut",
-    "setup_url": "https://github.com/mifi/lossless-cut#readme",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "partial-editor"
-    ]
-  },
-  {
-    "id": "maplibre-gl-js",
-    "name": "MapLibre GL JS",
-    "url": "https://github.com/maplibre/maplibre-gl-js",
-    "setup_url": "https://maplibre.org/maplibre-gl-js/docs/",
-    "license": "BSD-3-Clause",
-    "model": "open-source",
-    "platforms": [
-      "javascript",
-      "web"
-    ],
-    "limitations": [
-      "web-library"
-    ]
-  },
-  {
-    "id": "mariadb",
-    "name": "MariaDB",
-    "url": "https://github.com/MariaDB/server",
-    "setup_url": "https://mariadb.org/download/",
-    "license": "GPL-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "linux-server"
-    ],
-    "limitations": [
-      "server-admin"
-    ]
-  },
-  {
-    "id": "matomo",
-    "name": "Matomo",
-    "url": "https://github.com/matomo-org/matomo",
-    "setup_url": "https://matomo.org/guide/installation-maintenance/matomo-on-premise/",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "mattermost",
-    "name": "Mattermost",
-    "url": "https://github.com/mattermost/mattermost",
-    "setup_url": "https://docs.mattermost.com/deployment-guide/deployment-guide-index.html",
-    "license": "AGPL / mixed",
-    "model": "open-core",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "android",
-      "ios",
-      "web",
-      "docker"
-    ],
-    "limitations": [
-      "open-core"
-    ]
-  },
-  {
-    "id": "mautic",
-    "name": "Mautic",
-    "url": "https://github.com/mautic/mautic",
-    "setup_url": "https://github.com/mautic/mautic#readme",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "server-admin"
-    ]
-  },
-  {
-    "id": "maxima",
-    "name": "Maxima",
-    "url": "https://maxima.sourceforge.io/",
-    "setup_url": "https://maxima.sourceforge.io/download.html",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "medusa",
-    "name": "Medusa",
-    "url": "https://github.com/medusajs/medusa",
-    "setup_url": "https://docs.medusajs.com/learn/installation",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "developer-oriented",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "meilisearch",
-    "name": "Meilisearch",
-    "url": "https://github.com/meilisearch/meilisearch",
-    "setup_url": "https://www.meilisearch.com/docs/learn/getting_started/installation",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "docker"
-    ],
-    "limitations": [
-      "server-admin"
-    ]
-  },
-  {
-    "id": "meshcentral",
-    "name": "MeshCentral",
-    "url": "https://github.com/Ylianst/MeshCentral",
-    "setup_url": "https://github.com/Ylianst/MeshCentral#readme",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "metabase",
-    "name": "Metabase",
-    "url": "https://github.com/metabase/metabase",
-    "setup_url": "https://www.metabase.com/docs/latest/installation-and-operation/installing-metabase",
-    "license": "AGPL / mixed",
-    "model": "open-core",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "open-core",
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "mixxx",
-    "name": "Mixxx",
-    "url": "https://github.com/mixxxdj/mixxx",
-    "setup_url": "https://mixxx.org/download/",
-    "license": "GPL-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused",
-      "hardware-integration-varies"
-    ]
-  },
-  {
-    "id": "mpv",
-    "name": "mpv",
-    "url": "https://mpv.io/",
-    "setup_url": "https://mpv.io/installation/",
-    "license": "GPL-2.0-or-later / LGPL-2.1-or-later option",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "cli-first",
-      "third-party-windows-builds"
-    ]
-  },
-  {
-    "id": "natron",
-    "name": "Natron",
-    "url": "https://github.com/NatronGitHub/Natron",
-    "setup_url": "https://github.com/NatronGitHub/Natron#readme",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "advanced-workflow"
-    ]
-  },
-  {
-    "id": "navidrome",
-    "name": "Navidrome",
-    "url": "https://github.com/navidrome/navidrome",
-    "setup_url": "https://www.navidrome.org/docs/installation/",
-    "license": "GPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "local-library-only",
-      "self-hosting-required"
-    ]
-  },
-  {
-    "id": "nextcloud",
-    "name": "Nextcloud",
-    "url": "https://github.com/nextcloud/server",
-    "setup_url": "https://docs.nextcloud.com/server/latest/admin_manual/installation/",
-    "license": "AGPL-3.0-or-later",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "android",
-      "ios",
-      "web",
-      "docker"
-    ],
-    "limitations": [
-      "self-hosting-optional"
-    ]
-  },
-  {
-    "id": "node-red",
-    "name": "Node-RED",
-    "url": "https://github.com/node-red/node-red",
-    "setup_url": "https://nodered.org/docs/getting-started/",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "web",
-      "docker"
-    ],
-    "limitations": [
-      "flow-programming",
-      "security-hardening"
-    ]
-  },
-  {
-    "id": "obs-studio",
-    "name": "OBS Studio",
-    "url": "https://obsproject.com/",
-    "setup_url": "https://obsproject.com/download",
-    "license": "GPL-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "recording-not-editor"
-    ]
-  },
-  {
-    "id": "odoo-community",
-    "name": "Odoo Community",
-    "url": "https://github.com/odoo/odoo",
-    "setup_url": "https://github.com/odoo/odoo#readme",
-    "license": "LGPL-3.0 / mixed",
-    "model": "open-core",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "open-core",
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "ollama",
-    "name": "Ollama",
-    "url": "https://github.com/ollama/ollama",
-    "setup_url": "https://ollama.com/download",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "cli"
-    ],
-    "limitations": [
-      "model-download",
-      "gpu-recommended",
-      "no-cloud-catalog"
-    ]
-  },
-  {
-    "id": "onlyoffice",
-    "name": "ONLYOFFICE",
-    "url": "https://github.com/ONLYOFFICE/DocumentServer",
-    "setup_url": "https://github.com/ONLYOFFICE/DocumentServer#readme",
-    "license": "AGPL-3.0",
-    "model": "open-core",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "open-core",
-      "file-compatibility",
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "openlayers",
-    "name": "OpenLayers",
-    "url": "https://github.com/openlayers/openlayers",
-    "setup_url": "https://openlayers.org/doc/quickstart.html",
-    "license": "BSD-2-Clause",
-    "model": "open-source",
-    "platforms": [
-      "javascript",
-      "web"
-    ],
-    "limitations": [
-      "web-library"
-    ]
-  },
-  {
-    "id": "openproject",
-    "name": "OpenProject",
-    "url": "https://github.com/opf/openproject",
-    "setup_url": "https://www.openproject.org/docs/installation-and-operations/installation/",
-    "license": "GPL-3.0",
-    "model": "open-core",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "open-core",
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "openscad",
-    "name": "OpenSCAD",
-    "url": "https://github.com/openscad/openscad",
-    "setup_url": "https://openscad.org/downloads.html",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "code-driven",
-      "advanced-workflow"
-    ]
-  },
-  {
-    "id": "opensearch",
-    "name": "OpenSearch",
-    "url": "https://github.com/opensearch-project/OpenSearch",
-    "setup_url": "https://docs.opensearch.org/latest/install-and-configure/install-opensearch/index/",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "resource-heavy",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "openshot",
-    "name": "OpenShot",
-    "url": "https://www.openshot.org/",
-    "setup_url": "https://www.openshot.org/download/",
-    "license": "GPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused",
-      "gpu-recommended"
-    ]
-  },
-  {
-    "id": "opensign",
-    "name": "OpenSign",
-    "url": "https://github.com/opensignlabs/opensign",
-    "setup_url": "https://github.com/opensignlabs/opensign#readme",
-    "license": "AGPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "opentofu",
-    "name": "OpenTofu",
-    "url": "https://github.com/opentofu/opentofu",
-    "setup_url": "https://opentofu.org/docs/intro/install/",
-    "license": "MPL-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "cli"
-    ],
-    "limitations": [
-      "cli-first"
-    ]
-  },
-  {
-    "id": "payload",
-    "name": "Payload",
-    "url": "https://github.com/payloadcms/payload",
-    "setup_url": "https://payloadcms.com/docs/getting-started/installation",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "developer-oriented",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "pdf-arranger",
-    "name": "PDF Arranger",
-    "url": "https://github.com/pdfarranger/pdfarranger",
-    "setup_url": "https://github.com/pdfarranger/pdfarranger#readme",
-    "license": "GPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "linux"
-    ],
-    "limitations": [
-      "narrow-scope"
-    ]
-  },
-  {
-    "id": "peertube",
-    "name": "PeerTube",
-    "url": "https://github.com/Chocobozzz/PeerTube",
-    "setup_url": "https://docs.joinpeertube.org/install-any-os",
-    "license": "AGPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "penpot",
-    "name": "Penpot",
-    "url": "https://github.com/penpot/penpot",
-    "setup_url": "https://help.penpot.app/technical-guide/getting-started/",
-    "license": "MPL-2.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "browser-first",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "plausible-analytics",
-    "name": "Plausible Analytics",
-    "url": "https://github.com/plausible/analytics",
-    "setup_url": "https://github.com/plausible/analytics#readme",
-    "license": "AGPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "podman",
-    "name": "Podman",
-    "url": "https://github.com/containers/podman",
-    "setup_url": "https://podman.io/docs/installation",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "cli"
-    ],
-    "limitations": [
-      "cli-first",
-      "platform-feature-gaps"
-    ]
-  },
-  {
-    "id": "postgresql",
-    "name": "PostgreSQL",
-    "url": "https://www.postgresql.org/",
-    "setup_url": "https://www.postgresql.org/download/",
-    "license": "PostgreSQL License",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "linux-server"
-    ],
-    "limitations": [
-      "server-admin"
-    ]
-  },
-  {
-    "id": "prometheus",
-    "name": "Prometheus",
-    "url": "https://github.com/prometheus/prometheus",
-    "setup_url": "https://prometheus.io/docs/prometheus/latest/installation/",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "docker"
-    ],
-    "limitations": [
-      "server-admin",
-      "metrics-focused"
-    ]
-  },
-  {
-    "id": "proxmox-ve",
-    "name": "Proxmox VE",
-    "url": "https://www.proxmox.com/en/proxmox-virtual-environment/overview",
-    "setup_url": "https://www.proxmox.com/en/downloads",
-    "license": "AGPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "linux-server"
-    ],
-    "limitations": [
-      "bare-metal",
-      "linux-only"
-    ]
-  },
-  {
-    "id": "qemu",
-    "name": "QEMU",
-    "url": "https://gitlab.com/qemu-project/qemu",
-    "setup_url": "https://www.qemu.org/download/",
-    "license": "GPL-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "advanced-workflow",
-      "cli-first"
-    ]
-  },
-  {
-    "id": "qgis",
-    "name": "QGIS",
-    "url": "https://github.com/qgis/QGIS",
-    "setup_url": "https://qgis.org/download/",
-    "license": "GPL-2.0-or-later",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "qtractor",
-    "name": "Qtractor",
-    "url": "https://github.com/rncbc/qtractor",
-    "setup_url": "https://github.com/rncbc/qtractor#readme",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "linux"
-    ],
-    "limitations": [
-      "linux-only"
-    ]
-  },
-  {
-    "id": "r",
-    "name": "R",
-    "url": "https://www.r-project.org/",
-    "setup_url": "https://cloud.r-project.org/",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "rancher-desktop",
-    "name": "Rancher Desktop",
-    "url": "https://github.com/rancher-sandbox/rancher-desktop",
-    "setup_url": "https://docs.rancherdesktop.io/getting-started/installation/",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "resource-heavy"
-    ]
-  },
-  {
-    "id": "rawtherapee",
-    "name": "RawTherapee",
-    "url": "https://github.com/RawTherapee/RawTherapee",
-    "setup_url": "https://rawtherapee.com/downloads/",
-    "license": "GPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "redash",
-    "name": "Redash",
-    "url": "https://github.com/getredash/redash",
-    "setup_url": "https://redash.io/help/open-source/setup/",
-    "license": "BSD",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "remmina",
-    "name": "Remmina",
-    "url": "https://gitlab.com/Remmina/Remmina",
-    "setup_url": "https://remmina.org/how-to-install-remmina/",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "linux"
-    ],
-    "limitations": [
-      "linux-only"
-    ]
-  },
-  {
-    "id": "rocket-chat",
-    "name": "Rocket.Chat",
-    "url": "https://github.com/RocketChat/Rocket.Chat",
-    "setup_url": "https://docs.rocket.chat/docs/deploy-rocketchat",
-    "license": "MIT",
-    "model": "open-core",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "android",
-      "ios",
-      "web",
-      "docker"
-    ],
-    "limitations": [
-      "open-core"
-    ]
-  },
-  {
-    "id": "rustdesk",
-    "name": "RustDesk",
-    "url": "https://github.com/rustdesk/rustdesk",
-    "setup_url": "https://rustdesk.com/docs/en/client/",
-    "license": "AGPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "self-hosting-optional"
-    ]
-  },
-  {
-    "id": "sagemath",
-    "name": "SageMath",
-    "url": "https://github.com/sagemath/sage",
-    "setup_url": "https://doc.sagemath.org/html/en/installation/",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "macos",
-      "linux",
-      "docker"
-    ],
-    "limitations": [
-      "no-native-windows",
-      "resource-heavy"
-    ]
-  },
-  {
-    "id": "saleor",
-    "name": "Saleor",
-    "url": "https://github.com/saleor/saleor",
-    "setup_url": "https://docs.saleor.io/setup/docker-compose",
-    "license": "BSD",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "developer-oriented",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "scribus",
-    "name": "Scribus",
-    "url": "https://www.scribus.net/",
-    "setup_url": "https://www.scribus.net/downloads/",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused"
-    ]
-  },
-  {
-    "id": "shotcut",
-    "name": "Shotcut",
-    "url": "https://shotcut.org/",
-    "setup_url": "https://shotcut.org/download/",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused",
-      "gpu-recommended"
-    ]
-  },
-  {
-    "id": "solvespace",
-    "name": "SolveSpace",
-    "url": "https://github.com/solvespace/solvespace",
-    "setup_url": "https://solvespace.com/download.pl",
-    "license": "GPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "file-compatibility",
-      "advanced-workflow"
-    ]
-  },
-  {
-    "id": "stirling-pdf",
-    "name": "Stirling PDF",
-    "url": "https://github.com/Stirling-Tools/Stirling-PDF",
-    "setup_url": "https://docs.stirlingpdf.com/Installation/Overview/",
-    "license": "MIT / mixed",
-    "model": "open-core",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "open-core",
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "strapi",
-    "name": "Strapi",
-    "url": "https://github.com/strapi/strapi",
-    "setup_url": "https://docs.strapi.io/cms/installation",
-    "license": "MIT / mixed",
-    "model": "open-core",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "open-core",
-      "developer-oriented",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "suitecrm",
-    "name": "SuiteCRM",
-    "url": "https://github.com/SuiteCRM/SuiteCRM",
-    "setup_url": "https://docs.suitecrm.com/admin/installation-guide/downloading-installing/",
-    "license": "AGPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "syncthing",
-    "name": "Syncthing",
-    "url": "https://github.com/syncthing/syncthing",
-    "setup_url": "https://docs.syncthing.net/intro/getting-started.html",
-    "license": "MPL-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "peer-to-peer-not-cloud"
-    ]
-  },
-  {
-    "id": "taiga",
-    "name": "Taiga",
-    "url": "https://github.com/taigaio/taiga-back",
-    "setup_url": "https://docs.taiga.io/setup-production.html",
-    "license": "MPL-2.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "tooljet",
-    "name": "ToolJet",
-    "url": "https://github.com/ToolJet/ToolJet",
-    "setup_url": "https://docs.tooljet.ai/docs/setup/",
-    "license": "AGPL / mixed",
-    "model": "open-core",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "open-core",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "trino",
-    "name": "Trino",
-    "url": "https://github.com/trinodb/trino",
-    "setup_url": "https://trino.io/docs/current/installation/deployment.html",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "server-admin",
-      "cluster-oriented"
-    ]
-  },
-  {
-    "id": "umami",
-    "name": "Umami",
-    "url": "https://github.com/umami-software/umami",
-    "setup_url": "https://umami.is/docs/install",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "valkey",
-    "name": "Valkey",
-    "url": "https://github.com/valkey-io/valkey",
-    "setup_url": "https://valkey.io/topics/installation/",
-    "license": "BSD-3-Clause",
-    "model": "open-source",
-    "platforms": [
-      "linux",
-      "macos",
-      "docker"
-    ],
-    "limitations": [
-      "no-native-windows",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "vaultwarden",
-    "name": "Vaultwarden",
-    "url": "https://github.com/dani-garcia/vaultwarden",
-    "setup_url": "https://github.com/dani-garcia/vaultwarden#readme",
-    "license": "GPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "community-compatible-server"
-    ]
-  },
-  {
-    "id": "virt-manager",
-    "name": "virt-manager",
-    "url": "https://github.com/virt-manager/virt-manager",
-    "setup_url": "https://virt-manager.org/download/",
-    "license": "GPL-2.0",
-    "model": "open-source",
-    "platforms": [
-      "linux"
-    ],
-    "limitations": [
-      "linux-only"
-    ]
-  },
-  {
-    "id": "vlc-media-player",
-    "name": "VLC media player",
-    "url": "https://www.videolan.org/vlc/",
-    "setup_url": "https://www.videolan.org/vlc/",
-    "license": "GPL-2.0-or-later",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "android",
-      "ios"
-    ],
-    "limitations": [
-      "format-support"
-    ]
-  },
-  {
-    "id": "vscodium",
-    "name": "VSCodium",
-    "url": "https://github.com/VSCodium/vscodium",
-    "setup_url": "https://vscodium.com/#install",
-    "license": "MIT build scripts / upstream OSS",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "extension-marketplace-differs"
-    ]
-  },
-  {
-    "id": "wekan",
-    "name": "Wekan",
-    "url": "https://github.com/wekan/wekan",
-    "setup_url": "https://github.com/wekan/wekan#readme",
-    "license": "MIT",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "wiki-js",
-    "name": "Wiki.js",
-    "url": "https://github.com/requarks/wiki",
-    "setup_url": "https://docs.requarks.io/install",
-    "license": "AGPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "woocommerce",
-    "name": "WooCommerce",
-    "url": "https://github.com/woocommerce/woocommerce",
-    "setup_url": "https://woocommerce.com/document/installing-uninstalling-woocommerce/",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "wordpress",
-      "web"
-    ],
-    "limitations": [
-      "requires-wordpress",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "wordpress",
-    "name": "WordPress",
-    "url": "https://github.com/WordPress/wordpress-develop",
-    "setup_url": "https://wordpress.org/documentation/article/how-to-install-wordpress/",
-    "license": "GPL-2.0-or-later",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "server-admin",
-      "plugin-security"
-    ]
-  },
-  {
-    "id": "xcp-ng",
-    "name": "XCP-ng",
-    "url": "https://github.com/xcp-ng/xcp",
-    "setup_url": "https://docs.xcp-ng.org/installation/install-xcp-ng/",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "linux-server"
-    ],
-    "limitations": [
-      "bare-metal",
-      "linux-only"
-    ]
-  },
-  {
-    "id": "xournalpp",
-    "name": "Xournal++",
-    "url": "https://github.com/xournalpp/xournalpp",
-    "setup_url": "https://xournalpp.github.io/installation/",
-    "license": "GPL",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux"
-    ],
-    "limitations": [
-      "desktop-focused",
-      "narrow-scope"
-    ]
-  },
-  {
-    "id": "xwiki",
-    "name": "XWiki",
-    "url": "https://github.com/xwiki/xwiki-platform",
-    "setup_url": "https://www.xwiki.org/xwiki/bin/view/Documentation/AdminGuide/Installation/",
-    "license": "LGPL",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "zammad",
-    "name": "Zammad",
-    "url": "https://github.com/zammad/zammad",
-    "setup_url": "https://docs.zammad.org/en/latest/install/",
-    "license": "AGPL-3.0",
-    "model": "open-source",
-    "platforms": [
-      "web",
-      "docker",
-      "linux-server"
-    ],
-    "limitations": [
-      "self-hosting-required",
-      "server-admin"
-    ]
-  },
-  {
-    "id": "zulip",
-    "name": "Zulip",
-    "url": "https://github.com/zulip/zulip",
-    "setup_url": "https://zulip.readthedocs.io/en/latest/production/install.html",
-    "license": "Apache-2.0",
-    "model": "open-source",
-    "platforms": [
-      "windows",
-      "macos",
-      "linux",
-      "android",
-      "ios",
-      "web",
-      "docker"
-    ],
-    "limitations": [
-      "self-hosting-optional"
-    ]
-  }
-]
+- id: apache-superset
+  name: Apache Superset
+  url: https://github.com/apache/superset
+  setup_url: https://superset.apache.org/docs/quickstart/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: appflowy
+  name: AppFlowy
+  url: https://github.com/AppFlowy-IO/AppFlowy
+  setup_url: https://github.com/AppFlowy-IO/AppFlowy#readme
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - local-first-sync
+
+- id: appsmith
+  name: Appsmith
+  url: https://github.com/appsmithorg/appsmith
+  setup_url: https://docs.appsmith.com/getting-started/setup/installation-guides
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - server-admin
+
+- id: ardour
+  name: Ardour
+  url: https://ardour.org/
+  setup_url: https://ardour.org/download.html
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - advanced-workflow
+    - paid-official-builds
+
+- id: audacity
+  name: Audacity
+  url: https://www.audacityteam.org/
+  setup_url: https://www.audacityteam.org/download/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+    - narrow-scope
+
+- id: bigbluebutton
+  name: BigBlueButton
+  url: https://github.com/bigbluebutton/bigbluebutton
+  setup_url: https://docs.bigbluebutton.org/administration/install/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - resource-heavy
+    - server-admin
+
+- id: bitwarden
+  name: Bitwarden
+  url: https://github.com/bitwarden/server
+  setup_url: https://bitwarden.com/help/install-on-premise-linux/
+  model: open-core
+  platforms:
+    - windows
+    - macos
+    - linux
+    - android
+    - ios
+    - web
+
+  limitations:
+    - open-core
+    - enterprise-paid
+
+- id: blender
+  name: Blender
+  url: https://www.blender.org/
+  setup_url: https://www.blender.org/download/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - advanced-workflow
+    - gpu-recommended
+
+- id: bookstack
+  name: BookStack
+  url: https://github.com/BookStackApp/BookStack
+  setup_url: https://www.bookstackapp.com/docs/admin/installation/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: bruno
+  name: Bruno
+  url: https://github.com/usebruno/bruno
+  setup_url: https://www.usebruno.com/downloads
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+
+- id: cal-com
+  name: Cal.com
+  url: https://github.com/calcom/cal.com
+  setup_url: https://cal.com/docs/self-hosting/installation
+  model: open-core
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - open-core
+    - self-hosting-required
+    - server-admin
+
+- id: caprover
+  name: CapRover
+  url: https://github.com/caprover/caprover
+  setup_url: https://caprover.com/docs/get-started.html
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - linux-server
+    - docker-recommended
+    - self-hosting-required
+    - server-admin
+
+- id: chatwoot
+  name: Chatwoot
+  url: https://github.com/chatwoot/chatwoot
+  setup_url: https://www.chatwoot.com/docs/self-hosted/deployment/
+  model: open-core
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - open-core
+    - self-hosting-required
+    - server-admin
+
+- id: clickhouse
+  name: ClickHouse
+  url: https://github.com/ClickHouse/ClickHouse
+  setup_url: https://clickhouse.com/docs/install
+
+  platforms:
+    - linux
+    - macos
+    - docker
+
+  limitations:
+    - server-admin
+    - resource-heavy
+
+- id: colima
+  name: Colima
+  url: https://github.com/ab- iosoft/colima
+  setup_url: https://github.com/ab- iosoft/colima#readme
+
+  platforms:
+    - macos
+    - linux
+
+  limitations:
+    - mac-linux-only
+    - cli-first
+
+- id: collabora-online
+  name: Collabora Online
+  url: https://github.com/CollaboraOnline/online
+  setup_url: https://sdk.collaboraonline.com/docs/installation/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: continue
+  name: Continue
+  url: https://github.com/continuedev/continue
+  setup_url: https://github.com/continuedev/continue#readme
+
+  platforms:
+    - windows
+    - macos
+    - linux
+    - vscode
+    - jetbrains
+
+  limitations:
+    - ide-extension
+    - provider-required
+    - upstream-read-only
+
+- id: coolify
+  name: Coolify
+  url: https://github.com/coollabsio/coolify
+  setup_url: https://coolify.io/docs/get-started/installation
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - linux-server
+    - docker-recommended
+    - self-hosting-required
+    - server-admin
+
+- id: darktable
+  name: darktable
+  url: https://github.com/darktable-org/darktable
+  setup_url: https://www.darktable.org/install/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+
+- id: diagrams-net
+  name: diagrams.net
+  url: https://github.com/jgraph/drawio
+  setup_url: https://github.com/jgraph/drawio#readme
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+
+- id: digikam
+  name: digiKam
+  url: https://www.digikam.org/
+  setup_url: https://www.digikam.org/download/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+
+- id: discourse
+  name: Discourse
+  url: https://github.com/discourse/discourse
+  setup_url: https://github.com/discourse/discourse#readme
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - resource-heavy
+    - server-admin
+
+- id: docuseal
+  name: DocuSeal
+  url: https://github.com/docusealco/docuseal
+  setup_url: https://github.com/docusealco/docuseal#readme
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: dokku
+  name: Dokku
+  url: https://github.com/dokku/dokku
+  setup_url: https://dokku.com/docs/getting-started/installation/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - linux-only
+    - server-admin
+
+- id: drupal
+  name: Drupal
+  url: https://git.drupalcode.org/project/drupal
+  setup_url: https://www.drupal.org/docs/getting-started/installing-drupal
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - advanced-workflow
+    - server-admin
+
+- id: duckdb
+  name: DuckDB
+  url: https://github.com/duckdb/duckdb
+  setup_url: https://duckdb.org/docs/installation/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - embedded-local-first
+
+- id: element
+  name: Element
+  url: https://github.com/element-hq/element-web
+  setup_url: https://element.io/download
+
+  platforms:
+    - windows
+    - macos
+    - linux
+    - android
+    - ios
+    - web
+
+  limitations:
+    - matrix-account-or-server
+
+- id: erpnext
+  name: ERPNext
+  url: https://github.com/frappe/erpnext
+  setup_url: https://github.com/frappe/erpnext#readme
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: excalidraw
+  name: Excalidraw
+  url: https://github.com/excalidraw/excalidraw
+  setup_url: https://github.com/excalidraw/excalidraw#readme
+
+  platforms:
+    - web
+    - docker
+
+  limitations:
+    - browser-first
+    - advanced-features-limited
+
+- id: forgejo
+  name: Forgejo
+  url: https://codeberg.org/forgejo/forgejo
+  setup_url: https://forgejo.org/docs/latest/admin/installation/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: freecad
+  name: FreeCAD
+  url: https://www.freecad.org/
+  setup_url: https://www.freecad.org/downloads.php
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - file-compatibility
+    - advanced-workflow
+
+- id: geany
+  name: Geany
+  url: https://github.com/geany/geany
+  setup_url: https://www.geany.org/download/releases/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+
+- id: ghost
+  name: Ghost
+  url: https://github.com/TryGhost/Ghost
+  setup_url: https://ghost.org/docs/install/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - server-admin
+    - publishing-focused
+
+- id: gimp
+  name: GIMP
+  url: https://www.gimp.org/
+  setup_url: https://www.gimp.org/downloads/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+
+- id: gitea
+  name: Gitea
+  url: https://github.com/go-gitea/gitea
+  setup_url: https://docs.gitea.com/installation/install-from-binary
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: gitlab-community-edition
+  name: GitLab Community Edition
+  url: https://gitlab.com/gitlab-org/gitlab-foss
+  setup_url: https://about.gitlab.com/install/
+  model: open-core
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - open-core
+    - self-hosting-required
+    - server-admin
+
+- id: glaxnimate
+  name: Glaxnimate
+  url: https://github.com/mbasaglia/glaxnimate
+  setup_url: https://glaxnimate.mattbas.org/download/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+    - narrow-scope
+
+- id: glitchtip
+  name: GlitchTip
+  url: https://gitlab.com/glitchtip/glitchtip-backend
+  setup_url: https://glitchtip.com/documentation/install
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: gnu-octave
+  name: GNU Octave
+  url: https://octave.org/
+  setup_url: https://octave.org/download
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+
+- id: gnu-pspp
+  name: GNU PSPP
+  url: https://www.gnu.org/software/pspp/
+  setup_url: https://www.gnu.org/software/pspp/get.html
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+
+- id: gnucash
+  name: GnuCash
+  url: https://github.com/Gnucash/gnucash
+  setup_url: https://www.gnucash.org/download.phtml
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+    - collaboration-limited
+
+- id: grafana
+  name: Grafana
+  url: https://github.com/grafana/grafana
+  setup_url: https://grafana.com/docs/grafana/latest/setup-grafana/installation/
+  platforms:
+    - windows
+    - macos
+    - linux
+    - docker
+    - web
+
+  limitations:
+    - open-core
+    - external-backend
+
+- id: grapesjs
+  name: GrapesJS
+  url: https://github.com/GrapesJS/grapesjs
+  setup_url: https://grapesjs.com/docs/getting-started.html
+
+  platforms:
+    - javascript
+    - web
+
+  limitations:
+    - web-library
+
+- id: grass-gis
+  name: GRASS GIS
+  url: https://github.com/OSGeo/grass
+  setup_url: https://grass.osgeo.org/download/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+
+- id: home-assistant
+  name: Home Assistant
+  url: https://github.com/home-assistant/core
+  setup_url: https://www.home-assistant.io/installation/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - hardware-integration-varies
+    - server-admin
+
+- id: hoppscotch
+  name: Hoppscotch
+  url: https://github.com/hoppscotch/hoppscotch
+  setup_url: https://docs.hoppscotch.io/documentation/clients/desktop
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - browser-first
+
+- id: huginn
+  name: Huginn
+  url: https://github.com/huginn/huginn
+  setup_url: https://github.com/huginn/huginn#readme
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - advanced-setup
+    - server-admin
+
+- id: immich
+  name: Immich
+  url: https://github.com/immich-app/immich
+  setup_url: https://immich.app/docs/install/- docker-compose
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: inkscape
+  name: Inkscape
+  url: https://inkscape.org/
+  setup_url: https://inkscape.org/release/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+
+- id: jellyfin
+  name: Jellyfin
+  url: https://github.com/jellyfin/jellyfin
+  setup_url: https://jellyfin.org/docs/general/installation/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+    - android
+    - ios
+    - web
+    - docker
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: jitsi-meet
+  name: Jitsi Meet
+  url: https://github.com/jitsi/jitsi-meet
+  setup_url: https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart/
+
+  platforms:
+    - web
+    - android
+    - ios
+    - docker
+
+  limitations:
+    - browser-first
+    - server-admin
+
+- id: joplin
+  name: Joplin
+  url: https://github.com/laurent22/joplin
+  setup_url: https://joplinapp.org/help/install/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - local-first-sync
+
+- id: kanboard
+  name: Kanboard
+  url: https://github.com/kanboard/kanboard
+  setup_url: https://docs.kanboard.org/v1/admin/installation/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: kate
+  name: Kate
+  url: https://invent.kde.org/utilities/kate
+  setup_url: https://kate-editor.org/get-it/
+
+  platforms:
+    - windows
+    - linux
+
+  limitations:
+    - desktop-focused
+
+- id: kdenlive
+  name: Kdenlive
+  url: https://kdenlive.org/
+  setup_url: https://kdenlive.org/download/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+    - gpu-recommended
+
+- id: keepassxc
+  name: KeePassXC
+  url: https://github.com/keepassxreboot/keepassxc
+  setup_url: https://keepassxc.org/download/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+    - local-first-sync
+
+- id: keycloak
+  name: Keycloak
+  url: https://github.com/keycloak/keycloak
+  setup_url: https://www.keycloak.org/getting-started/getting-started-docker
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: krita
+  name: Krita
+  url: https://github.com/KDE/krita
+  setup_url: https://krita.org/en/download/krita-desktop/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+    - android
+
+  limitations:
+    - desktop-focused
+
+- id: leaflet
+  name: Leaflet
+  url: https://github.com/Leaflet/Leaflet
+  setup_url: https://leafletjs.com/examples/quick-start/
+
+  platforms:
+    - javascript
+    - web
+
+  limitations:
+    - web-library
+
+- id: leantime
+  name: Leantime
+  url: https://github.com/Leantime/leantime
+  setup_url: https://docs.leantime.io/installation/
+  model: open-core
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - open-core
+    - self-hosting-required
+    - server-admin
+
+- id: librecad
+  name: LibreCAD
+  url: https://github.com/LibreCAD/LibreCAD
+  setup_url: https://librecad.org/#download
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - file-compatibility
+    - advanced-workflow
+
+- id: libreoffice
+  name: LibreOffice
+  url: https://www.libreoffice.org/
+  setup_url: https://www.libreoffice.org/download/download-libreoffice/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+
+- id: limesurvey
+  name: LimeSurvey
+  url: https://github.com/LimeSurvey/LimeSurvey
+  setup_url: https://manual.limesurvey.org/Installation_-_LimeSurvey_CE
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: listmonk
+  name: listmonk
+  url: https://github.com/knadh/listmonk
+  setup_url: https://listmonk.app/docs/installation/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - server-admin
+    - newsletter-focused
+
+- id: lmms
+  name: LMMS
+  url: https://github.com/LMMS/lmms
+  setup_url: https://lmms.io/download
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+    - plugin-ecosystem
+
+- id: logseq
+  name: Logseq
+  url: https://github.com/logseq/logseq
+  setup_url: https://github.com/logseq/logseq#readme
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - local-first-sync
+
+- id: losslesscut
+  name: LosslessCut
+  url: https://github.com/mifi/lossless-cut
+  setup_url: https://github.com/mifi/lossless-cut#readme
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - partial-editor
+
+- id: maplibre-gl-js
+  name: MapLibre GL JS
+  url: https://github.com/maplibre/maplibre-gl-js
+  setup_url: https://maplibre.org/maplibre-gl-js/docs/
+
+  platforms:
+    - javascript
+    - web
+
+  limitations:
+    - web-library
+
+- id: mariadb
+  name: MariaDB
+  url: https://github.com/MariaDB/server
+  setup_url: https://mariadb.org/download/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+    - linux-server
+
+  limitations:
+    - server-admin
+
+- id: matomo
+  name: Matomo
+  url: https://github.com/matomo-org/matomo
+  setup_url: https://matomo.org/guide/installation-maintenance/matomo-on-premise/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: mattermost
+  name: Mattermost
+  url: https://github.com/mattermost/mattermost
+  setup_url: https://docs.mattermost.com/deployment-guide/deployment-guide-index.html
+  model: open-core
+  platforms:
+    - windows
+    - macos
+    - linux
+    - android
+    - ios
+    - web
+    - docker
+
+  limitations:
+    - open-core
+
+- id: mautic
+  name: Mautic
+  url: https://github.com/mautic/mautic
+  setup_url: https://github.com/mautic/mautic#readme
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - server-admin
+
+- id: maxima
+  name: Maxima
+  url: https://maxima.sourceforge.io/
+  setup_url: https://maxima.sourceforge.io/download.html
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+
+- id: medusa
+  name: Medusa
+  url: https://github.com/medusajs/medusa
+  setup_url: https://docs.medusajs.com/learn/installation
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - developer-oriented
+    - server-admin
+
+- id: meilisearch
+  name: Meilisearch
+  url: https://github.com/meilisearch/meilisearch
+  setup_url: https://www.meilisearch.com/docs/learn/getting_started/installation
+
+  platforms:
+    - windows
+    - macos
+    - linux
+    - docker
+
+  limitations:
+    - server-admin
+
+- id: meshcentral
+  name: MeshCentral
+  url: https://github.com/Ylianst/MeshCentral
+  setup_url: https://github.com/Ylianst/MeshCentral#readme
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: metabase
+  name: Metabase
+  url: https://github.com/metabase/metabase
+  setup_url: https://www.metabase.com/docs/latest/installation-and-operation/installing-metabase
+  model: open-core
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - open-core
+    - self-hosting-required
+    - server-admin
+
+- id: mixxx
+  name: Mixxx
+  url: https://github.com/mixxxdj/mixxx
+  setup_url: https://mixxx.org/download/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+    - hardware-integration-varies
+
+- id: mpv
+  name: mpv
+  url: https://mpv.io/
+  setup_url: https://mpv.io/installation/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - cli-first
+    - third-party-windows-builds
+
+- id: natron
+  name: Natron
+  url: https://github.com/NatronGitHub/Natron
+  setup_url: https://github.com/NatronGitHub/Natron#readme
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - advanced-workflow
+
+- id: navidrome
+  name: Navidrome
+  url: https://github.com/navidrome/navidrome
+  setup_url: https://www.navidrome.org/docs/installation/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - local-library-only
+    - self-hosting-required
+
+- id: nextcloud
+  name: Nextcloud
+  url: https://github.com/nextcloud/server
+  setup_url: https://docs.nextcloud.com/server/latest/admin_manual/installation/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+    - android
+    - ios
+    - web
+    - docker
+
+  limitations:
+    - self-hosting-optional
+
+- id: node-red
+  name: Node-RED
+  url: https://github.com/node-red/node-red
+  setup_url: https://nodered.org/docs/getting-started/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+    - web
+    - docker
+
+  limitations:
+    - flow-programming
+    - security-hardening
+
+- id: obs-studio
+  name: OBS Studio
+  url: https://obsproject.com/
+  setup_url: https://obsproject.com/download
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - recording-not-editor
+
+- id: odoo-community
+  name: Odoo Community
+  url: https://github.com/odoo/odoo
+  setup_url: https://github.com/odoo/odoo#readme
+  model: open-core
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - open-core
+    - self-hosting-required
+    - server-admin
+
+- id: ollama
+  name: Ollama
+  url: https://github.com/ollama/ollama
+  setup_url: https://ollama.com/download
+
+  platforms:
+    - windows
+    - macos
+    - linux
+    - cli
+
+  limitations:
+    - model-download
+    - gpu-recommended
+    - no-cloud-catalog
+
+- id: onlyoffice
+  name: ONLYOFFICE
+  url: https://github.com/ONLYOFFICE/DocumentServer
+  setup_url: https://github.com/ONLYOFFICE/DocumentServer#readme
+  model: open-core
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - open-core
+    - file-compatibility
+    - self-hosting-required
+    - server-admin
+
+- id: openlayers
+  name: OpenLayers
+  url: https://github.com/openlayers/openlayers
+  setup_url: https://openlayers.org/doc/quickstart.html
+
+  platforms:
+    - javascript
+    - web
+
+  limitations:
+    - web-library
+
+- id: openproject
+  name: OpenProject
+  url: https://github.com/opf/openproject
+  setup_url: https://www.openproject.org/docs/installation-and-operations/installation/
+  model: open-core
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - open-core
+    - self-hosting-required
+    - server-admin
+
+- id: openscad
+  name: OpenSCAD
+  url: https://github.com/openscad/openscad
+  setup_url: https://openscad.org/downloads.html
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - code-driven
+    - advanced-workflow
+
+- id: opensearch
+  name: OpenSearch
+  url: https://github.com/opensearch-project/OpenSearch
+  setup_url: https://docs.opensearch.org/latest/install-and-configure/install-opensearch/index/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - resource-heavy
+    - server-admin
+
+- id: openshot
+  name: OpenShot
+  url: https://www.openshot.org/
+  setup_url: https://www.openshot.org/download/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+    - gpu-recommended
+
+- id: opensign
+  name: OpenSign
+  url: https://github.com/opensignlabs/opensign
+  setup_url: https://github.com/opensignlabs/opensign#readme
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: opentofu
+  name: OpenTofu
+  url: https://github.com/opentofu/opentofu
+  setup_url: https://opentofu.org/docs/intro/install/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+    - cli
+
+  limitations:
+    - cli-first
+
+- id: payload
+  name: Payload
+  url: https://github.com/payloadcms/payload
+  setup_url: https://payloadcms.com/docs/getting-started/installation
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - developer-oriented
+    - server-admin
+
+- id: pdf-arranger
+  name: PDF Arranger
+  url: https://github.com/pdfarranger/pdfarranger
+  setup_url: https://github.com/pdfarranger/pdfarranger#readme
+
+  platforms:
+    - windows
+    - linux
+
+  limitations:
+    - narrow-scope
+
+- id: peertube
+  name: PeerTube
+  url: https://github.com/Chocobozzz/PeerTube
+  setup_url: https://docs.joinpeertube.org/install-any-os
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: penpot
+  name: Penpot
+  url: https://github.com/penpot/penpot
+  setup_url: https://help.penpot.app/technical-guide/getting-started/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - browser-first
+    - server-admin
+
+- id: plausible-analytics
+  name: Plausible Analytics
+  url: https://github.com/plausible/analytics
+  setup_url: https://github.com/plausible/analytics#readme
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: podman
+  name: Podman
+  url: https://github.com/containers/podman
+  setup_url: https://podman.io/docs/installation
+  platforms:
+    - windows
+    - macos
+    - linux
+    - cli
+
+  limitations:
+    - cli-first
+    - platform-feature-gaps
+
+- id: postgresql
+  name: PostgreSQL
+  url: https://www.postgresql.org/
+  setup_url: https://www.postgresql.org/download/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+    - linux-server
+
+  limitations:
+    - server-admin
+
+- id: prometheus
+  name: Prometheus
+  url: https://github.com/prometheus/prometheus
+  setup_url: https://prometheus.io/docs/prometheus/latest/installation/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+    - docker
+
+  limitations:
+    - server-admin
+    - metrics-focused
+
+- id: proxmox-ve
+  name: Proxmox VE
+  url: https://www.proxmox.com/en/proxmox-virtual-environment/overview
+  setup_url: https://www.proxmox.com/en/downloads
+
+  platforms:
+    - linux-server
+
+  limitations:
+    - bare-metal
+    - linux-only
+
+- id: qemu
+  name: QEMU
+  url: https://gitlab.com/qemu-project/qemu
+  setup_url: https://www.qemu.org/download/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - advanced-workflow
+    - cli-first
+
+- id: qgis
+  name: QGIS
+  url: https://github.com/qgis/QGIS
+  setup_url: https://qgis.org/download/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+
+- id: qtractor
+  name: Qtractor
+  url: https://github.com/rncbc/qtractor
+  setup_url: https://github.com/rncbc/qtractor#readme
+
+  platforms:
+    - linux
+
+  limitations:
+    - linux-only
+
+- id: r
+  name: R
+  url: https://www.r-project.org/
+  setup_url: https://cloud.r-project.org/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+
+- id: rancher-desktop
+  name: Rancher Desktop
+  url: https://github.com/rancher-sandbox/rancher-desktop
+  setup_url: https://docs.rancherdesktop.io/getting-started/installation/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - resource-heavy
+
+- id: rawtherapee
+  name: RawTherapee
+  url: https://github.com/RawTherapee/RawTherapee
+  setup_url: https://rawtherapee.com/downloads/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+
+- id: redash
+  name: Redash
+  url: https://github.com/getredash/redash
+  setup_url: https://redash.io/help/open-source/setup/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: remmina
+  name: Remmina
+  url: https://gitlab.com/Remmina/Remmina
+  setup_url: https://remmina.org/how-to-install-remmina/
+
+  platforms:
+    - linux
+
+  limitations:
+    - linux-only
+
+- id: rocket-chat
+  name: Rocket.Chat
+  url: https://github.com/RocketChat/Rocket.Chat
+  setup_url: https://docs.rocket.chat/docs/deploy-rocketchat
+  model: open-core
+  platforms:
+    - windows
+    - macos
+    - linux
+    - android
+    - ios
+    - web
+    - docker
+
+  limitations:
+    - open-core
+
+- id: rustdesk
+  name: RustDesk
+  url: https://github.com/rustdesk/rustdesk
+  setup_url: https://rustdesk.com/docs/en/client/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - self-hosting-optional
+
+- id: sagemath
+  name: SageMath
+  url: https://github.com/sagemath/sage
+  setup_url: https://doc.sagemath.org/html/en/installation/
+
+  platforms:
+    - macos
+    - linux
+    - docker
+
+  limitations:
+    - no-native-windows
+    - resource-heavy
+
+- id: saleor
+  name: Saleor
+  url: https://github.com/saleor/saleor
+  setup_url: https://docs.saleor.io/setup/- docker-compose
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - developer-oriented
+    - server-admin
+
+- id: scribus
+  name: Scribus
+  url: https://www.scribus.net/
+  setup_url: https://www.scribus.net/downloads/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+
+- id: shotcut
+  name: Shotcut
+  url: https://shotcut.org/
+  setup_url: https://shotcut.org/download/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+    - gpu-recommended
+
+- id: solvespace
+  name: SolveSpace
+  url: https://github.com/solvespace/solvespace
+  setup_url: https://solvespace.com/download.pl
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - file-compatibility
+    - advanced-workflow
+
+- id: stirling-pdf
+  name: Stirling PDF
+  url: https://github.com/Stirling-Tools/Stirling-PDF
+  setup_url: https://docs.stirlingpdf.com/Installation/Overview/
+  model: open-core
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - open-core
+    - self-hosting-required
+    - server-admin
+
+- id: strapi
+  name: Strapi
+  url: https://github.com/strapi/strapi
+  setup_url: https://docs.strapi.io/cms/installation
+  model: open-core
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - open-core
+    - developer-oriented
+    - server-admin
+
+- id: suitecrm
+  name: SuiteCRM
+  url: https://github.com/SuiteCRM/SuiteCRM
+  setup_url: https://docs.suitecrm.com/admin/installation-guide/downloading-installing/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: syncthing
+  name: Syncthing
+  url: https://github.com/syncthing/syncthing
+  setup_url: https://docs.syncthing.net/intro/getting-started.html
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - peer-to-peer-not-cloud
+
+- id: taiga
+  name: Taiga
+  url: https://github.com/taigaio/taiga-back
+  setup_url: https://docs.taiga.io/setup-production.html
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: tooljet
+  name: ToolJet
+  url: https://github.com/ToolJet/ToolJet
+  setup_url: https://docs.tooljet.ai/docs/setup/
+  model: open-core
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - open-core
+    - server-admin
+
+- id: trino
+  name: Trino
+  url: https://github.com/trinodb/trino
+  setup_url: https://trino.io/docs/current/installation/deployment.html
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - server-admin
+    - cluster-oriented
+
+- id: umami
+  name: Umami
+  url: https://github.com/umami-software/umami
+  setup_url: https://umami.is/docs/install
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: valkey
+  name: Valkey
+  url: https://github.com/valkey-io/valkey
+  setup_url: https://valkey.io/topics/installation/
+
+  platforms:
+    - linux
+    - macos
+    - docker
+
+  limitations:
+    - no-native-windows
+    - server-admin
+
+- id: vaultwarden
+  name: Vaultwarden
+  url: https://github.com/dani-garcia/vaultwarden
+  setup_url: https://github.com/dani-garcia/vaultwarden#readme
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - community-compatible-server
+
+- id: virt-manager
+  name: virt-manager
+  url: https://github.com/virt-manager/virt-manager
+  setup_url: https://virt-manager.org/download/
+
+  platforms:
+    - linux
+
+  limitations:
+    - linux-only
+
+- id: vlc-media-player
+  name: VLC media player
+  url: https://www.videolan.org/vlc/
+  setup_url: https://www.videolan.org/vlc/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+    - android
+    - ios
+
+  limitations:
+    - format-support
+
+- id: vscodium
+  name: VSCodium
+  url: https://github.com/VSCodium/vscodium
+  setup_url: https://vscodium.com/#install
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - extension-marketplace-differs
+
+- id: wekan
+  name: Wekan
+  url: https://github.com/wekan/wekan
+  setup_url: https://github.com/wekan/wekan#readme
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: wiki-js
+  name: Wiki.js
+  url: https://github.com/requarks/wiki
+  setup_url: https://docs.requarks.io/install
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: woocommerce
+  name: WooCommerce
+  url: https://github.com/woocommerce/woocommerce
+  setup_url: https://woocommerce.com/document/installing-uninstalling-woocommerce/
+
+  platforms:
+    - wordpress
+    - web
+
+  limitations:
+    - requires-wordpress
+    - server-admin
+
+- id: wordpress
+  name: WordPress
+  url: https://github.com/WordPress/wordpress-develop
+  setup_url: https://wordpress.org/documentation/article/how-to-install-wordpress/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - server-admin
+    - plugin-security
+
+- id: xcp-ng
+  name: XCP-ng
+  url: https://github.com/xcp-ng/xcp
+  setup_url: https://docs.xcp-ng.org/installation/install-xcp-ng/
+
+  platforms:
+    - linux-server
+
+  limitations:
+    - bare-metal
+    - linux-only
+
+- id: xournalpp
+  name: Xournal++
+  url: https://github.com/xournalpp/xournalpp
+  setup_url: https://xournalpp.github.io/installation/
+
+  platforms:
+    - windows
+    - macos
+    - linux
+
+  limitations:
+    - desktop-focused
+    - narrow-scope
+
+- id: xwiki
+  name: XWiki
+  url: https://github.com/xwiki/xwiki-platform
+  setup_url: https://www.xwiki.org/xwiki/bin/view/Documentation/AdminGuide/Installation/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: zammad
+  name: Zammad
+  url: https://github.com/zammad/zammad
+  setup_url: https://docs.zammad.org/en/latest/install/
+
+  platforms:
+    - web
+    - docker
+    - linux-server
+
+  limitations:
+    - self-hosting-required
+    - server-admin
+
+- id: zulip
+  name: Zulip
+  url: https://github.com/zulip/zulip
+  setup_url: https://zulip.readthedocs.io/en/latest/production/install.html
+
+  platforms:
+    - windows
+    - macos
+    - linux
+    - android
+    - ios
+    - web
+    - docker
+
+  limitations:
+    - self-hosting-optional

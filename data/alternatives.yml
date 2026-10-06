@@ -1,1419 +1,1062 @@
 # Canonical mappings. Project metadata lives in projects.yml; translations live in locales/*.json.
-[
-  {
-    "id": "figma-penpot",
-    "category": "ui-ux-design",
-    "proprietary": "Figma",
-    "project_id": "penpot",
-    "fit": "closest",
-    "note_key": "figma-penpot"
-  },
-  {
-    "id": "adobe-photoshop-gimp",
-    "category": "image-editing",
-    "proprietary": "Adobe Photoshop",
-    "project_id": "gimp",
-    "fit": "strong",
-    "note_key": "adobe-photoshop-gimp"
-  },
-  {
-    "id": "adobe-photoshop-krita",
-    "category": "digital-painting",
-    "proprietary": "Adobe Photoshop",
-    "project_id": "krita",
-    "fit": "strong",
-    "note_key": "adobe-photoshop-krita"
-  },
-  {
-    "id": "adobe-illustrator-inkscape",
-    "category": "vector-graphics",
-    "proprietary": "Adobe Illustrator",
-    "project_id": "inkscape",
-    "fit": "closest",
-    "note_key": "adobe-illustrator-inkscape"
-  },
-  {
-    "id": "adobe-indesign-scribus",
-    "category": "desktop-publishing",
-    "proprietary": "Adobe InDesign",
-    "project_id": "scribus",
-    "fit": "strong",
-    "note_key": "adobe-indesign-scribus"
-  },
-  {
-    "id": "adobe-lightroom-darktable",
-    "category": "photo-management-raw",
-    "proprietary": "Adobe Lightroom",
-    "project_id": "darktable",
-    "fit": "closest",
-    "note_key": "adobe-lightroom-darktable"
-  },
-  {
-    "id": "adobe-lightroom-rawtherapee",
-    "category": "photo-management-raw",
-    "proprietary": "Adobe Lightroom",
-    "project_id": "rawtherapee",
-    "fit": "strong",
-    "note_key": "adobe-lightroom-rawtherapee"
-  },
-  {
-    "id": "adobe-lightroom-digikam",
-    "category": "photo-management-raw",
-    "proprietary": "Adobe Lightroom",
-    "project_id": "digikam",
-    "fit": "strong",
-    "note_key": "adobe-lightroom-digikam"
-  },
-  {
-    "id": "canva-inkscape",
-    "category": "vector-graphics",
-    "proprietary": "Canva",
-    "project_id": "inkscape",
-    "fit": "partial",
-    "note_key": "canva-inkscape"
-  },
-  {
-    "id": "canva-krita",
-    "category": "digital-painting",
-    "proprietary": "Canva",
-    "project_id": "krita",
-    "fit": "partial",
-    "note_key": "canva-krita"
-  },
-  {
-    "id": "coreldraw-inkscape",
-    "category": "vector-graphics",
-    "proprietary": "CorelDRAW",
-    "project_id": "inkscape",
-    "fit": "closest",
-    "note_key": "coreldraw-inkscape"
-  },
-  {
-    "id": "capcut-kdenlive",
-    "category": "video-editing",
-    "proprietary": "CapCut",
-    "project_id": "kdenlive",
-    "fit": "closest",
-    "note_key": "capcut-kdenlive"
-  },
-  {
-    "id": "capcut-shotcut",
-    "category": "video-editing",
-    "proprietary": "CapCut",
-    "project_id": "shotcut",
-    "fit": "strong",
-    "note_key": "capcut-shotcut"
-  },
-  {
-    "id": "capcut-openshot",
-    "category": "video-editing",
-    "proprietary": "CapCut",
-    "project_id": "openshot",
-    "fit": "strong",
-    "note_key": "capcut-openshot"
-  },
-  {
-    "id": "capcut-losslesscut",
-    "category": "video-editing",
-    "proprietary": "CapCut",
-    "project_id": "losslesscut",
-    "fit": "partial",
-    "note_key": "capcut-losslesscut"
-  },
-  {
-    "id": "adobe-premiere-pro-kdenlive",
-    "category": "video-editing",
-    "proprietary": "Adobe Premiere Pro",
-    "project_id": "kdenlive",
-    "fit": "closest",
-    "note_key": "adobe-premiere-pro-kdenlive"
-  },
-  {
-    "id": "adobe-premiere-pro-shotcut",
-    "category": "video-editing",
-    "proprietary": "Adobe Premiere Pro",
-    "project_id": "shotcut",
-    "fit": "strong",
-    "note_key": "adobe-premiere-pro-shotcut"
-  },
-  {
-    "id": "final-cut-pro-kdenlive",
-    "category": "video-editing",
-    "proprietary": "Final Cut Pro",
-    "project_id": "kdenlive",
-    "fit": "strong",
-    "note_key": "final-cut-pro-kdenlive"
-  },
-  {
-    "id": "adobe-after-effects-blender",
-    "category": "motion-graphics-vfx",
-    "proprietary": "Adobe After Effects",
-    "project_id": "blender",
-    "fit": "strong",
-    "note_key": "adobe-after-effects-blender"
-  },
-  {
-    "id": "adobe-after-effects-natron",
-    "category": "motion-graphics-vfx",
-    "proprietary": "Adobe After Effects",
-    "project_id": "natron",
-    "fit": "strong",
-    "note_key": "adobe-after-effects-natron"
-  },
-  {
-    "id": "adobe-after-effects-glaxnimate",
-    "category": "motion-graphics-vfx",
-    "proprietary": "Adobe After Effects",
-    "project_id": "glaxnimate",
-    "fit": "partial",
-    "note_key": "adobe-after-effects-glaxnimate"
-  },
-  {
-    "id": "davinci-resolve-kdenlive",
-    "category": "video-editing",
-    "proprietary": "DaVinci Resolve",
-    "project_id": "kdenlive",
-    "fit": "partial",
-    "note_key": "davinci-resolve-kdenlive"
-  },
-  {
-    "id": "davinci-resolve-blender",
-    "category": "motion-graphics-vfx",
-    "proprietary": "DaVinci Resolve",
-    "project_id": "blender",
-    "fit": "partial",
-    "note_key": "davinci-resolve-blender"
-  },
-  {
-    "id": "screenflow-obs-studio",
-    "category": "screen-recording-streaming",
-    "proprietary": "ScreenFlow",
-    "project_id": "obs-studio",
-    "fit": "partial",
-    "note_key": "screenflow-obs-studio"
-  },
-  {
-    "id": "adobe-audition-audacity",
-    "category": "audio-editing-recording",
-    "proprietary": "Adobe Audition",
-    "project_id": "audacity",
-    "fit": "closest",
-    "note_key": "adobe-audition-audacity"
-  },
-  {
-    "id": "adobe-audition-ardour",
-    "category": "music-production-daw",
-    "proprietary": "Adobe Audition",
-    "project_id": "ardour",
-    "fit": "strong",
-    "note_key": "adobe-audition-ardour"
-  },
-  {
-    "id": "ableton-live-ardour",
-    "category": "music-production-daw",
-    "proprietary": "Ableton Live",
-    "project_id": "ardour",
-    "fit": "strong",
-    "note_key": "ableton-live-ardour"
-  },
-  {
-    "id": "ableton-live-lmms",
-    "category": "music-production-daw",
-    "proprietary": "Ableton Live",
-    "project_id": "lmms",
-    "fit": "strong",
-    "note_key": "ableton-live-lmms"
-  },
-  {
-    "id": "fl-studio-lmms",
-    "category": "music-production-daw",
-    "proprietary": "FL Studio",
-    "project_id": "lmms",
-    "fit": "closest",
-    "note_key": "fl-studio-lmms"
-  },
-  {
-    "id": "logic-pro-ardour",
-    "category": "music-production-daw",
-    "proprietary": "Logic Pro",
-    "project_id": "ardour",
-    "fit": "strong",
-    "note_key": "logic-pro-ardour"
-  },
-  {
-    "id": "logic-pro-qtractor",
-    "category": "music-production-daw",
-    "proprietary": "Logic Pro",
-    "project_id": "qtractor",
-    "fit": "strong",
-    "note_key": "logic-pro-qtractor"
-  },
-  {
-    "id": "serato-dj-mixxx",
-    "category": "dj",
-    "proprietary": "Serato DJ",
-    "project_id": "mixxx",
-    "fit": "closest",
-    "note_key": "serato-dj-mixxx"
-  },
-  {
-    "id": "traktor-pro-mixxx",
-    "category": "dj",
-    "proprietary": "Traktor Pro",
-    "project_id": "mixxx",
-    "fit": "closest",
-    "note_key": "traktor-pro-mixxx"
-  },
-  {
-    "id": "autodesk-maya-blender",
-    "category": "3d-modeling-animation",
-    "proprietary": "Autodesk Maya",
-    "project_id": "blender",
-    "fit": "closest",
-    "note_key": "autodesk-maya-blender"
-  },
-  {
-    "id": "autodesk-3ds-max-blender",
-    "category": "3d-modeling-animation",
-    "proprietary": "Autodesk 3ds Max",
-    "project_id": "blender",
-    "fit": "closest",
-    "note_key": "autodesk-3ds-max-blender"
-  },
-  {
-    "id": "autocad-freecad",
-    "category": "cad",
-    "proprietary": "AutoCAD",
-    "project_id": "freecad",
-    "fit": "strong",
-    "note_key": "autocad-freecad"
-  },
-  {
-    "id": "autocad-librecad",
-    "category": "cad",
-    "proprietary": "AutoCAD",
-    "project_id": "librecad",
-    "fit": "strong",
-    "note_key": "autocad-librecad"
-  },
-  {
-    "id": "solidworks-freecad",
-    "category": "cad",
-    "proprietary": "SolidWorks",
-    "project_id": "freecad",
-    "fit": "closest",
-    "note_key": "solidworks-freecad"
-  },
-  {
-    "id": "solidworks-solvespace",
-    "category": "cad",
-    "proprietary": "SolidWorks",
-    "project_id": "solvespace",
-    "fit": "strong",
-    "note_key": "solidworks-solvespace"
-  },
-  {
-    "id": "fusion-360-freecad",
-    "category": "cad",
-    "proprietary": "Fusion 360",
-    "project_id": "freecad",
-    "fit": "strong",
-    "note_key": "fusion-360-freecad"
-  },
-  {
-    "id": "fusion-360-openscad",
-    "category": "cad",
-    "proprietary": "Fusion 360",
-    "project_id": "openscad",
-    "fit": "partial",
-    "note_key": "fusion-360-openscad"
-  },
-  {
-    "id": "sketchup-blender",
-    "category": "3d-modeling-animation",
-    "proprietary": "SketchUp",
-    "project_id": "blender",
-    "fit": "strong",
-    "note_key": "sketchup-blender"
-  },
-  {
-    "id": "sketchup-freecad",
-    "category": "cad",
-    "proprietary": "SketchUp",
-    "project_id": "freecad",
-    "fit": "partial",
-    "note_key": "sketchup-freecad"
-  },
-  {
-    "id": "microsoft-office-libreoffice",
-    "category": "office-suites",
-    "proprietary": "Microsoft Office",
-    "project_id": "libreoffice",
-    "fit": "closest",
-    "note_key": "microsoft-office-libreoffice"
-  },
-  {
-    "id": "microsoft-365-onlyoffice",
-    "category": "office-suites",
-    "proprietary": "Microsoft 365",
-    "project_id": "onlyoffice",
-    "fit": "strong",
-    "note_key": "microsoft-365-onlyoffice"
-  },
-  {
-    "id": "google-docs-sheets-slides-onlyoffice",
-    "category": "office-suites",
-    "proprietary": "Google Docs / Sheets / Slides",
-    "project_id": "onlyoffice",
-    "fit": "strong",
-    "note_key": "google-docs-sheets-slides-onlyoffice"
-  },
-  {
-    "id": "google-docs-sheets-slides-collabora-online",
-    "category": "document-collaboration",
-    "proprietary": "Google Docs / Sheets / Slides",
-    "project_id": "collabora-online",
-    "fit": "strong",
-    "note_key": "google-docs-sheets-slides-collabora-online"
-  },
-  {
-    "id": "adobe-acrobat-stirling-pdf",
-    "category": "pdf-tools",
-    "proprietary": "Adobe Acrobat",
-    "project_id": "stirling-pdf",
-    "fit": "strong",
-    "note_key": "adobe-acrobat-stirling-pdf"
-  },
-  {
-    "id": "adobe-acrobat-pdf-arranger",
-    "category": "pdf-tools",
-    "proprietary": "Adobe Acrobat",
-    "project_id": "pdf-arranger",
-    "fit": "partial",
-    "note_key": "adobe-acrobat-pdf-arranger"
-  },
-  {
-    "id": "docusign-docuseal",
-    "category": "e-signature",
-    "proprietary": "DocuSign",
-    "project_id": "docuseal",
-    "fit": "closest",
-    "note_key": "docusign-docuseal"
-  },
-  {
-    "id": "docusign-opensign",
-    "category": "e-signature",
-    "proprietary": "DocuSign",
-    "project_id": "opensign",
-    "fit": "strong",
-    "note_key": "docusign-opensign"
-  },
-  {
-    "id": "notion-appflowy",
-    "category": "note-taking",
-    "proprietary": "Notion",
-    "project_id": "appflowy",
-    "fit": "closest",
-    "note_key": "notion-appflowy"
-  },
-  {
-    "id": "notion-logseq",
-    "category": "note-taking",
-    "proprietary": "Notion",
-    "project_id": "logseq",
-    "fit": "partial",
-    "note_key": "notion-logseq"
-  },
-  {
-    "id": "evernote-joplin",
-    "category": "note-taking",
-    "proprietary": "Evernote",
-    "project_id": "joplin",
-    "fit": "closest",
-    "note_key": "evernote-joplin"
-  },
-  {
-    "id": "microsoft-onenote-joplin",
-    "category": "note-taking",
-    "proprietary": "Microsoft OneNote",
-    "project_id": "joplin",
-    "fit": "strong",
-    "note_key": "microsoft-onenote-joplin"
-  },
-  {
-    "id": "microsoft-onenote-xournalpp",
-    "category": "note-taking",
-    "proprietary": "Microsoft OneNote",
-    "project_id": "xournalpp",
-    "fit": "strong",
-    "note_key": "microsoft-onenote-xournalpp"
-  },
-  {
-    "id": "confluence-bookstack",
-    "category": "knowledge-base-wiki",
-    "proprietary": "Confluence",
-    "project_id": "bookstack",
-    "fit": "closest",
-    "note_key": "confluence-bookstack"
-  },
-  {
-    "id": "confluence-wiki-js",
-    "category": "knowledge-base-wiki",
-    "proprietary": "Confluence",
-    "project_id": "wiki-js",
-    "fit": "strong",
-    "note_key": "confluence-wiki-js"
-  },
-  {
-    "id": "confluence-xwiki",
-    "category": "knowledge-base-wiki",
-    "proprietary": "Confluence",
-    "project_id": "xwiki",
-    "fit": "strong",
-    "note_key": "confluence-xwiki"
-  },
-  {
-    "id": "slack-mattermost",
-    "category": "team-chat",
-    "proprietary": "Slack",
-    "project_id": "mattermost",
-    "fit": "closest",
-    "note_key": "slack-mattermost"
-  },
-  {
-    "id": "slack-zulip",
-    "category": "team-chat",
-    "proprietary": "Slack",
-    "project_id": "zulip",
-    "fit": "strong",
-    "note_key": "slack-zulip"
-  },
-  {
-    "id": "slack-rocket-chat",
-    "category": "team-chat",
-    "proprietary": "Slack",
-    "project_id": "rocket-chat",
-    "fit": "strong",
-    "note_key": "slack-rocket-chat"
-  },
-  {
-    "id": "discord-element",
-    "category": "team-chat",
-    "proprietary": "Discord",
-    "project_id": "element",
-    "fit": "strong",
-    "note_key": "discord-element"
-  },
-  {
-    "id": "microsoft-teams-mattermost",
-    "category": "team-chat",
-    "proprietary": "Microsoft Teams",
-    "project_id": "mattermost",
-    "fit": "strong",
-    "note_key": "microsoft-teams-mattermost"
-  },
-  {
-    "id": "zoom-jitsi-meet",
-    "category": "video-conferencing",
-    "proprietary": "Zoom",
-    "project_id": "jitsi-meet",
-    "fit": "closest",
-    "note_key": "zoom-jitsi-meet"
-  },
-  {
-    "id": "google-meet-jitsi-meet",
-    "category": "video-conferencing",
-    "proprietary": "Google Meet",
-    "project_id": "jitsi-meet",
-    "fit": "closest",
-    "note_key": "google-meet-jitsi-meet"
-  },
-  {
-    "id": "zoom-bigbluebutton",
-    "category": "video-conferencing",
-    "proprietary": "Zoom",
-    "project_id": "bigbluebutton",
-    "fit": "strong",
-    "note_key": "zoom-bigbluebutton"
-  },
-  {
-    "id": "calendly-cal-com",
-    "category": "scheduling",
-    "proprietary": "Calendly",
-    "project_id": "cal-com",
-    "fit": "closest",
-    "note_key": "calendly-cal-com"
-  },
-  {
-    "id": "loom-obs-studio",
-    "category": "screen-recording-streaming",
-    "proprietary": "Loom",
-    "project_id": "obs-studio",
-    "fit": "partial",
-    "note_key": "loom-obs-studio"
-  },
-  {
-    "id": "jira-openproject",
-    "category": "issue-project-management",
-    "proprietary": "Jira",
-    "project_id": "openproject",
-    "fit": "closest",
-    "note_key": "jira-openproject"
-  },
-  {
-    "id": "jira-taiga",
-    "category": "issue-project-management",
-    "proprietary": "Jira",
-    "project_id": "taiga",
-    "fit": "strong",
-    "note_key": "jira-taiga"
-  },
-  {
-    "id": "asana-openproject",
-    "category": "issue-project-management",
-    "proprietary": "Asana",
-    "project_id": "openproject",
-    "fit": "strong",
-    "note_key": "asana-openproject"
-  },
-  {
-    "id": "asana-leantime",
-    "category": "issue-project-management",
-    "proprietary": "Asana",
-    "project_id": "leantime",
-    "fit": "strong",
-    "note_key": "asana-leantime"
-  },
-  {
-    "id": "trello-wekan",
-    "category": "kanban",
-    "proprietary": "Trello",
-    "project_id": "wekan",
-    "fit": "closest",
-    "note_key": "trello-wekan"
-  },
-  {
-    "id": "trello-kanboard",
-    "category": "kanban",
-    "proprietary": "Trello",
-    "project_id": "kanboard",
-    "fit": "strong",
-    "note_key": "trello-kanboard"
-  },
-  {
-    "id": "miro-excalidraw",
-    "category": "whiteboards",
-    "proprietary": "Miro",
-    "project_id": "excalidraw",
-    "fit": "strong",
-    "note_key": "miro-excalidraw"
-  },
-  {
-    "id": "lucidchart-diagrams-net",
-    "category": "diagramming",
-    "proprietary": "Lucidchart",
-    "project_id": "diagrams-net",
-    "fit": "closest",
-    "note_key": "lucidchart-diagrams-net"
-  },
-  {
-    "id": "microsoft-visio-diagrams-net",
-    "category": "diagramming",
-    "proprietary": "Microsoft Visio",
-    "project_id": "diagrams-net",
-    "fit": "closest",
-    "note_key": "microsoft-visio-diagrams-net"
-  },
-  {
-    "id": "dropbox-nextcloud",
-    "category": "file-sync-cloud",
-    "proprietary": "Dropbox",
-    "project_id": "nextcloud",
-    "fit": "closest",
-    "note_key": "dropbox-nextcloud"
-  },
-  {
-    "id": "google-drive-nextcloud",
-    "category": "file-sync-cloud",
-    "proprietary": "Google Drive",
-    "project_id": "nextcloud",
-    "fit": "closest",
-    "note_key": "google-drive-nextcloud"
-  },
-  {
-    "id": "onedrive-nextcloud",
-    "category": "file-sync-cloud",
-    "proprietary": "OneDrive",
-    "project_id": "nextcloud",
-    "fit": "closest",
-    "note_key": "onedrive-nextcloud"
-  },
-  {
-    "id": "dropbox-syncthing",
-    "category": "file-sync-cloud",
-    "proprietary": "Dropbox",
-    "project_id": "syncthing",
-    "fit": "strong",
-    "note_key": "dropbox-syncthing"
-  },
-  {
-    "id": "google-photos-immich",
-    "category": "photo-library",
-    "proprietary": "Google Photos",
-    "project_id": "immich",
-    "fit": "closest",
-    "note_key": "google-photos-immich"
-  },
-  {
-    "id": "icloud-photos-immich",
-    "category": "photo-library",
-    "proprietary": "iCloud Photos",
-    "project_id": "immich",
-    "fit": "strong",
-    "note_key": "icloud-photos-immich"
-  },
-  {
-    "id": "plex-jellyfin",
-    "category": "media-servers",
-    "proprietary": "Plex",
-    "project_id": "jellyfin",
-    "fit": "closest",
-    "note_key": "plex-jellyfin"
-  },
-  {
-    "id": "youtube-peertube",
-    "category": "video-hosting",
-    "proprietary": "YouTube",
-    "project_id": "peertube",
-    "fit": "strong",
-    "note_key": "youtube-peertube"
-  },
-  {
-    "id": "spotify-self-hosted-library-use-case-navidrome",
-    "category": "music-streaming",
-    "proprietary": "Spotify (self-hosted library use case)",
-    "project_id": "navidrome",
-    "fit": "partial",
-    "note_key": "spotify-self-hosted-library-use-case-navidrome"
-  },
-  {
-    "id": "1password-keepassxc",
-    "category": "password-managers",
-    "proprietary": "1Password",
-    "project_id": "keepassxc",
-    "fit": "closest",
-    "note_key": "1password-keepassxc"
-  },
-  {
-    "id": "1password-bitwarden",
-    "category": "password-managers",
-    "proprietary": "1Password",
-    "project_id": "bitwarden",
-    "fit": "strong",
-    "note_key": "1password-bitwarden"
-  },
-  {
-    "id": "lastpass-vaultwarden",
-    "category": "password-managers",
-    "proprietary": "LastPass",
-    "project_id": "vaultwarden",
-    "fit": "strong",
-    "note_key": "lastpass-vaultwarden"
-  },
-  {
-    "id": "lastpass-keepassxc",
-    "category": "password-managers",
-    "proprietary": "LastPass",
-    "project_id": "keepassxc",
-    "fit": "strong",
-    "note_key": "lastpass-keepassxc"
-  },
-  {
-    "id": "auth0-keycloak",
-    "category": "iam-sso",
-    "proprietary": "Auth0",
-    "project_id": "keycloak",
-    "fit": "closest",
-    "note_key": "auth0-keycloak"
-  },
-  {
-    "id": "okta-keycloak",
-    "category": "iam-sso",
-    "proprietary": "Okta",
-    "project_id": "keycloak",
-    "fit": "strong",
-    "note_key": "okta-keycloak"
-  },
-  {
-    "id": "teamviewer-rustdesk",
-    "category": "remote-desktop",
-    "proprietary": "TeamViewer",
-    "project_id": "rustdesk",
-    "fit": "closest",
-    "note_key": "teamviewer-rustdesk"
-  },
-  {
-    "id": "anydesk-rustdesk",
-    "category": "remote-desktop",
-    "proprietary": "AnyDesk",
-    "project_id": "rustdesk",
-    "fit": "closest",
-    "note_key": "anydesk-rustdesk"
-  },
-  {
-    "id": "teamviewer-meshcentral",
-    "category": "remote-desktop",
-    "proprietary": "TeamViewer",
-    "project_id": "meshcentral",
-    "fit": "strong",
-    "note_key": "teamviewer-meshcentral"
-  },
-  {
-    "id": "microsoft-remote-desktop-manager-remmina",
-    "category": "remote-desktop",
-    "proprietary": "Microsoft Remote Desktop Manager",
-    "project_id": "remmina",
-    "fit": "strong",
-    "note_key": "microsoft-remote-desktop-manager-remmina"
-  },
-  {
-    "id": "sublime-text-kate",
-    "category": "ide-code-editors",
-    "proprietary": "Sublime Text",
-    "project_id": "kate",
-    "fit": "strong",
-    "note_key": "sublime-text-kate"
-  },
-  {
-    "id": "sublime-text-geany",
-    "category": "ide-code-editors",
-    "proprietary": "Sublime Text",
-    "project_id": "geany",
-    "fit": "strong",
-    "note_key": "sublime-text-geany"
-  },
-  {
-    "id": "visual-studio-code-microsoft-distribution-vscodium",
-    "category": "ide-code-editors",
-    "proprietary": "Visual Studio Code (Microsoft distribution)",
-    "project_id": "vscodium",
-    "fit": "closest",
-    "note_key": "visual-studio-code-microsoft-distribution-vscodium"
-  },
-  {
-    "id": "postman-bruno",
-    "category": "api-clients",
-    "proprietary": "Postman",
-    "project_id": "bruno",
-    "fit": "closest",
-    "note_key": "postman-bruno"
-  },
-  {
-    "id": "postman-hoppscotch",
-    "category": "api-clients",
-    "proprietary": "Postman",
-    "project_id": "hoppscotch",
-    "fit": "strong",
-    "note_key": "postman-hoppscotch"
-  },
-  {
-    "id": "insomnia-bruno",
-    "category": "api-clients",
-    "proprietary": "Insomnia",
-    "project_id": "bruno",
-    "fit": "strong",
-    "note_key": "insomnia-bruno"
-  },
-  {
-    "id": "github-forgejo",
-    "category": "git-forges",
-    "proprietary": "GitHub",
-    "project_id": "forgejo",
-    "fit": "closest",
-    "note_key": "github-forgejo"
-  },
-  {
-    "id": "github-gitea",
-    "category": "git-forges",
-    "proprietary": "GitHub",
-    "project_id": "gitea",
-    "fit": "strong",
-    "note_key": "github-gitea"
-  },
-  {
-    "id": "github-gitlab-community-edition",
-    "category": "git-forges",
-    "proprietary": "GitHub",
-    "project_id": "gitlab-community-edition",
-    "fit": "strong",
-    "note_key": "github-gitlab-community-edition"
-  },
-  {
-    "id": "docker-desktop-podman",
-    "category": "containers",
-    "proprietary": "Docker Desktop",
-    "project_id": "podman",
-    "fit": "closest",
-    "note_key": "docker-desktop-podman"
-  },
-  {
-    "id": "docker-desktop-rancher-desktop",
-    "category": "containers",
-    "proprietary": "Docker Desktop",
-    "project_id": "rancher-desktop",
-    "fit": "strong",
-    "note_key": "docker-desktop-rancher-desktop"
-  },
-  {
-    "id": "docker-desktop-colima",
-    "category": "containers",
-    "proprietary": "Docker Desktop",
-    "project_id": "colima",
-    "fit": "strong",
-    "note_key": "docker-desktop-colima"
-  },
-  {
-    "id": "terraform-enterprise-terraform-cli-post-bsl-opentofu",
-    "category": "infrastructure-as-code",
-    "proprietary": "Terraform Enterprise / Terraform CLI post-BSL",
-    "project_id": "opentofu",
-    "fit": "closest",
-    "note_key": "terraform-enterprise-terraform-cli-post-bsl-opentofu"
-  },
-  {
-    "id": "oracle-database-postgresql",
-    "category": "databases-relational",
-    "proprietary": "Oracle Database",
-    "project_id": "postgresql",
-    "fit": "strong",
-    "note_key": "oracle-database-postgresql"
-  },
-  {
-    "id": "microsoft-sql-server-postgresql",
-    "category": "databases-relational",
-    "proprietary": "Microsoft SQL Server",
-    "project_id": "postgresql",
-    "fit": "strong",
-    "note_key": "microsoft-sql-server-postgresql"
-  },
-  {
-    "id": "oracle-database-mariadb",
-    "category": "databases-relational",
-    "proprietary": "Oracle Database",
-    "project_id": "mariadb",
-    "fit": "strong",
-    "note_key": "oracle-database-mariadb"
-  },
-  {
-    "id": "snowflake-clickhouse",
-    "category": "databases-analytical",
-    "proprietary": "Snowflake",
-    "project_id": "clickhouse",
-    "fit": "strong",
-    "note_key": "snowflake-clickhouse"
-  },
-  {
-    "id": "bigquery-clickhouse",
-    "category": "databases-analytical",
-    "proprietary": "BigQuery",
-    "project_id": "clickhouse",
-    "fit": "strong",
-    "note_key": "bigquery-clickhouse"
-  },
-  {
-    "id": "bigquery-duckdb",
-    "category": "databases-analytical",
-    "proprietary": "BigQuery",
-    "project_id": "duckdb",
-    "fit": "partial",
-    "note_key": "bigquery-duckdb"
-  },
-  {
-    "id": "trino-starburst-enterprise-trino",
-    "category": "distributed-query-engines",
-    "proprietary": "Trino Starburst Enterprise",
-    "project_id": "trino",
-    "fit": "closest",
-    "note_key": "trino-starburst-enterprise-trino"
-  },
-  {
-    "id": "redis-enterprise-features-valkey",
-    "category": "key-value-databases",
-    "proprietary": "Redis Enterprise features",
-    "project_id": "valkey",
-    "fit": "strong",
-    "note_key": "redis-enterprise-features-valkey"
-  },
-  {
-    "id": "elasticsearch-opensearch",
-    "category": "search-engines",
-    "proprietary": "Elasticsearch",
-    "project_id": "opensearch",
-    "fit": "closest",
-    "note_key": "elasticsearch-opensearch"
-  },
-  {
-    "id": "algolia-meilisearch",
-    "category": "search-engines",
-    "proprietary": "Algolia",
-    "project_id": "meilisearch",
-    "fit": "strong",
-    "note_key": "algolia-meilisearch"
-  },
-  {
-    "id": "tableau-apache-superset",
-    "category": "business-intelligence",
-    "proprietary": "Tableau",
-    "project_id": "apache-superset",
-    "fit": "strong",
-    "note_key": "tableau-apache-superset"
-  },
-  {
-    "id": "power-bi-metabase",
-    "category": "business-intelligence",
-    "proprietary": "Power BI",
-    "project_id": "metabase",
-    "fit": "strong",
-    "note_key": "power-bi-metabase"
-  },
-  {
-    "id": "tableau-redash",
-    "category": "business-intelligence",
-    "proprietary": "Tableau",
-    "project_id": "redash",
-    "fit": "strong",
-    "note_key": "tableau-redash"
-  },
-  {
-    "id": "google-analytics-matomo",
-    "category": "web-analytics",
-    "proprietary": "Google Analytics",
-    "project_id": "matomo",
-    "fit": "closest",
-    "note_key": "google-analytics-matomo"
-  },
-  {
-    "id": "google-analytics-plausible-analytics",
-    "category": "web-analytics",
-    "proprietary": "Google Analytics",
-    "project_id": "plausible-analytics",
-    "fit": "strong",
-    "note_key": "google-analytics-plausible-analytics"
-  },
-  {
-    "id": "google-analytics-umami",
-    "category": "web-analytics",
-    "proprietary": "Google Analytics",
-    "project_id": "umami",
-    "fit": "strong",
-    "note_key": "google-analytics-umami"
-  },
-  {
-    "id": "datadog-grafana",
-    "category": "observability-metrics",
-    "proprietary": "Datadog",
-    "project_id": "grafana",
-    "fit": "strong",
-    "note_key": "datadog-grafana"
-  },
-  {
-    "id": "datadog-prometheus",
-    "category": "observability-metrics",
-    "proprietary": "Datadog",
-    "project_id": "prometheus",
-    "fit": "strong",
-    "note_key": "datadog-prometheus"
-  },
-  {
-    "id": "sentry-glitchtip",
-    "category": "error-monitoring",
-    "proprietary": "Sentry",
-    "project_id": "glitchtip",
-    "fit": "strong",
-    "note_key": "sentry-glitchtip"
-  },
-  {
-    "id": "heroku-dokku",
-    "category": "paas-deployment",
-    "proprietary": "Heroku",
-    "project_id": "dokku",
-    "fit": "closest",
-    "note_key": "heroku-dokku"
-  },
-  {
-    "id": "heroku-caprover",
-    "category": "paas-deployment",
-    "proprietary": "Heroku",
-    "project_id": "caprover",
-    "fit": "strong",
-    "note_key": "heroku-caprover"
-  },
-  {
-    "id": "vercel-coolify",
-    "category": "paas-deployment",
-    "proprietary": "Vercel",
-    "project_id": "coolify",
-    "fit": "strong",
-    "note_key": "vercel-coolify"
-  },
-  {
-    "id": "netlify-coolify",
-    "category": "paas-deployment",
-    "proprietary": "Netlify",
-    "project_id": "coolify",
-    "fit": "strong",
-    "note_key": "netlify-coolify"
-  },
-  {
-    "id": "vmware-vsphere-proxmox-ve",
-    "category": "virtualization",
-    "proprietary": "VMware vSphere",
-    "project_id": "proxmox-ve",
-    "fit": "closest",
-    "note_key": "vmware-vsphere-proxmox-ve"
-  },
-  {
-    "id": "citrix-hypervisor-xcp-ng",
-    "category": "virtualization",
-    "proprietary": "Citrix Hypervisor",
-    "project_id": "xcp-ng",
-    "fit": "strong",
-    "note_key": "citrix-hypervisor-xcp-ng"
-  },
-  {
-    "id": "vmware-workstation-qemu",
-    "category": "virtualization",
-    "proprietary": "VMware Workstation",
-    "project_id": "qemu",
-    "fit": "strong",
-    "note_key": "vmware-workstation-qemu"
-  },
-  {
-    "id": "vmware-workstation-virt-manager",
-    "category": "virtualization",
-    "proprietary": "VMware Workstation",
-    "project_id": "virt-manager",
-    "fit": "strong",
-    "note_key": "vmware-workstation-virt-manager"
-  },
-  {
-    "id": "salesforce-suitecrm",
-    "category": "crm-erp",
-    "proprietary": "Salesforce",
-    "project_id": "suitecrm",
-    "fit": "closest",
-    "note_key": "salesforce-suitecrm"
-  },
-  {
-    "id": "salesforce-erpnext",
-    "category": "crm-erp",
-    "proprietary": "Salesforce",
-    "project_id": "erpnext",
-    "fit": "strong",
-    "note_key": "salesforce-erpnext"
-  },
-  {
-    "id": "hubspot-odoo-community",
-    "category": "crm-erp",
-    "proprietary": "HubSpot",
-    "project_id": "odoo-community",
-    "fit": "strong",
-    "note_key": "hubspot-odoo-community"
-  },
-  {
-    "id": "zendesk-zammad",
-    "category": "customer-support",
-    "proprietary": "Zendesk",
-    "project_id": "zammad",
-    "fit": "closest",
-    "note_key": "zendesk-zammad"
-  },
-  {
-    "id": "intercom-chatwoot",
-    "category": "customer-support",
-    "proprietary": "Intercom",
-    "project_id": "chatwoot",
-    "fit": "closest",
-    "note_key": "intercom-chatwoot"
-  },
-  {
-    "id": "quickbooks-gnucash",
-    "category": "accounting-finance",
-    "proprietary": "QuickBooks",
-    "project_id": "gnucash",
-    "fit": "strong",
-    "note_key": "quickbooks-gnucash"
-  },
-  {
-    "id": "shopify-woocommerce",
-    "category": "ecommerce",
-    "proprietary": "Shopify",
-    "project_id": "woocommerce",
-    "fit": "strong",
-    "note_key": "shopify-woocommerce"
-  },
-  {
-    "id": "shopify-medusa",
-    "category": "ecommerce",
-    "proprietary": "Shopify",
-    "project_id": "medusa",
-    "fit": "strong",
-    "note_key": "shopify-medusa"
-  },
-  {
-    "id": "shopify-saleor",
-    "category": "ecommerce",
-    "proprietary": "Shopify",
-    "project_id": "saleor",
-    "fit": "strong",
-    "note_key": "shopify-saleor"
-  },
-  {
-    "id": "mailchimp-mautic",
-    "category": "email-marketing",
-    "proprietary": "Mailchimp",
-    "project_id": "mautic",
-    "fit": "closest",
-    "note_key": "mailchimp-mautic"
-  },
-  {
-    "id": "mailchimp-listmonk",
-    "category": "email-marketing",
-    "proprietary": "Mailchimp",
-    "project_id": "listmonk",
-    "fit": "strong",
-    "note_key": "mailchimp-listmonk"
-  },
-  {
-    "id": "typeform-limesurvey",
-    "category": "forms-surveys",
-    "proprietary": "Typeform",
-    "project_id": "limesurvey",
-    "fit": "strong",
-    "note_key": "typeform-limesurvey"
-  },
-  {
-    "id": "squarespace-wordpress",
-    "category": "cms",
-    "proprietary": "Squarespace",
-    "project_id": "wordpress",
-    "fit": "strong",
-    "note_key": "squarespace-wordpress"
-  },
-  {
-    "id": "wix-wordpress",
-    "category": "cms",
-    "proprietary": "Wix",
-    "project_id": "wordpress",
-    "fit": "strong",
-    "note_key": "wix-wordpress"
-  },
-  {
-    "id": "medium-ghost",
-    "category": "publishing-newsletters",
-    "proprietary": "Medium",
-    "project_id": "ghost",
-    "fit": "closest",
-    "note_key": "medium-ghost"
-  },
-  {
-    "id": "contentful-strapi",
-    "category": "headless-cms",
-    "proprietary": "Contentful",
-    "project_id": "strapi",
-    "fit": "closest",
-    "note_key": "contentful-strapi"
-  },
-  {
-    "id": "contentful-payload",
-    "category": "headless-cms",
-    "proprietary": "Contentful",
-    "project_id": "payload",
-    "fit": "strong",
-    "note_key": "contentful-payload"
-  },
-  {
-    "id": "webflow-cms-use-case-drupal",
-    "category": "cms",
-    "proprietary": "Webflow (CMS use case)",
-    "project_id": "drupal",
-    "fit": "partial",
-    "note_key": "webflow-cms-use-case-drupal"
-  },
-  {
-    "id": "webflow-visual-builder-use-case-grapesjs",
-    "category": "web-builders",
-    "proprietary": "Webflow (visual builder use case)",
-    "project_id": "grapesjs",
-    "fit": "partial",
-    "note_key": "webflow-visual-builder-use-case-grapesjs"
-  },
-  {
-    "id": "circle-community-platforms-discourse",
-    "category": "community-forums",
-    "proprietary": "Circle / community platforms",
-    "project_id": "discourse",
-    "fit": "strong",
-    "note_key": "circle-community-platforms-discourse"
-  },
-  {
-    "id": "retool-appsmith",
-    "category": "low-code-internal-tools",
-    "proprietary": "Retool",
-    "project_id": "appsmith",
-    "fit": "strong",
-    "note_key": "retool-appsmith"
-  },
-  {
-    "id": "retool-tooljet",
-    "category": "low-code-internal-tools",
-    "proprietary": "Retool",
-    "project_id": "tooljet",
-    "fit": "strong",
-    "note_key": "retool-tooljet"
-  },
-  {
-    "id": "matlab-gnu-octave",
-    "category": "numerical-computing",
-    "proprietary": "MATLAB",
-    "project_id": "gnu-octave",
-    "fit": "closest",
-    "note_key": "matlab-gnu-octave"
-  },
-  {
-    "id": "mathematica-sagemath",
-    "category": "computer-algebra",
-    "proprietary": "Mathematica",
-    "project_id": "sagemath",
-    "fit": "strong",
-    "note_key": "mathematica-sagemath"
-  },
-  {
-    "id": "mathematica-maxima",
-    "category": "computer-algebra",
-    "proprietary": "Mathematica",
-    "project_id": "maxima",
-    "fit": "strong",
-    "note_key": "mathematica-maxima"
-  },
-  {
-    "id": "ibm-spss-statistics-gnu-pspp",
-    "category": "statistics",
-    "proprietary": "IBM SPSS Statistics",
-    "project_id": "gnu-pspp",
-    "fit": "closest",
-    "note_key": "ibm-spss-statistics-gnu-pspp"
-  },
-  {
-    "id": "sas-r",
-    "category": "statistics",
-    "proprietary": "SAS",
-    "project_id": "r",
-    "fit": "strong",
-    "note_key": "sas-r"
-  },
-  {
-    "id": "arcgis-pro-qgis",
-    "category": "gis",
-    "proprietary": "ArcGIS Pro",
-    "project_id": "qgis",
-    "fit": "closest",
-    "note_key": "arcgis-pro-qgis"
-  },
-  {
-    "id": "arcgis-grass-gis",
-    "category": "gis",
-    "proprietary": "ArcGIS",
-    "project_id": "grass-gis",
-    "fit": "strong",
-    "note_key": "arcgis-grass-gis"
-  },
-  {
-    "id": "mapbox-gl-js-proprietary-generations-maplibre-gl-js",
-    "category": "web-mapping",
-    "proprietary": "Mapbox GL JS proprietary generations",
-    "project_id": "maplibre-gl-js",
-    "fit": "closest",
-    "note_key": "mapbox-gl-js-proprietary-generations-maplibre-gl-js"
-  },
-  {
-    "id": "google-maps-javascript-api-openlayers",
-    "category": "web-mapping",
-    "proprietary": "Google Maps JavaScript API",
-    "project_id": "openlayers",
-    "fit": "strong",
-    "note_key": "google-maps-javascript-api-openlayers"
-  },
-  {
-    "id": "google-maps-javascript-api-leaflet",
-    "category": "web-mapping",
-    "proprietary": "Google Maps JavaScript API",
-    "project_id": "leaflet",
-    "fit": "strong",
-    "note_key": "google-maps-javascript-api-leaflet"
-  },
-  {
-    "id": "zapier-huginn",
-    "category": "workflow-automation",
-    "proprietary": "Zapier",
-    "project_id": "huginn",
-    "fit": "strong",
-    "note_key": "zapier-huginn"
-  },
-  {
-    "id": "zapier-node-red",
-    "category": "workflow-automation",
-    "proprietary": "Zapier",
-    "project_id": "node-red",
-    "fit": "strong",
-    "note_key": "zapier-node-red"
-  },
-  {
-    "id": "microsoft-power-automate-node-red",
-    "category": "workflow-automation",
-    "proprietary": "Microsoft Power Automate",
-    "project_id": "node-red",
-    "fit": "strong",
-    "note_key": "microsoft-power-automate-node-red"
-  },
-  {
-    "id": "ifttt-home-assistant",
-    "category": "smart-home",
-    "proprietary": "IFTTT",
-    "project_id": "home-assistant",
-    "fit": "strong",
-    "note_key": "ifttt-home-assistant"
-  },
-  {
-    "id": "cyberlink-powerdvd-vlc-media-player",
-    "category": "video-players",
-    "proprietary": "CyberLink PowerDVD",
-    "project_id": "vlc-media-player",
-    "fit": "strong",
-    "note_key": "cyberlink-powerdvd-vlc-media-player"
-  },
-  {
-    "id": "elmedia-player-pro-mpv",
-    "category": "video-players",
-    "proprietary": "Elmedia Player PRO",
-    "project_id": "mpv",
-    "fit": "strong",
-    "note_key": "elmedia-player-pro-mpv"
-  },
-  {
-    "id": "lm-studio-ollama",
-    "category": "llm-runtimes",
-    "proprietary": "LM Studio",
-    "project_id": "ollama",
-    "fit": "strong",
-    "note_key": "lm-studio-ollama"
-  },
-  {
-    "id": "github-copilot-continue",
-    "category": "ai-coding-assistants",
-    "proprietary": "GitHub Copilot",
-    "project_id": "continue",
-    "fit": "strong",
-    "note_key": "github-copilot-continue"
-  }
-]
+- id: figma-penpot
+  category: ui-ux-design
+  proprietary: Figma
+  project_id: penpot
+  note_key: figma-penpot
+
+- id: adobe-photoshop-gimp
+  category: image-editing
+  proprietary: Adobe Photoshop
+  project_id: gimp
+  note_key: adobe-photoshop-gimp
+
+- id: adobe-photoshop-krita
+  category: digital-painting
+  proprietary: Adobe Photoshop
+  project_id: krita
+  note_key: adobe-photoshop-krita
+
+- id: adobe-illustrator-inkscape
+  category: vector-graphics
+  proprietary: Adobe Illustrator
+  project_id: inkscape
+  note_key: adobe-illustrator-inkscape
+
+- id: adobe-indesign-scribus
+  category: desktop-publishing
+  proprietary: Adobe InDesign
+  project_id: scribus
+  note_key: adobe-indesign-scribus
+
+- id: adobe-lightroom-darktable
+  category: photo-management-raw
+  proprietary: Adobe Lightroom
+  project_id: darktable
+  note_key: adobe-lightroom-darktable
+
+- id: adobe-lightroom-rawtherapee
+  category: photo-management-raw
+  proprietary: Adobe Lightroom
+  project_id: rawtherapee
+  note_key: adobe-lightroom-rawtherapee
+
+- id: adobe-lightroom-digikam
+  category: photo-management-raw
+  proprietary: Adobe Lightroom
+  project_id: digikam
+  note_key: adobe-lightroom-digikam
+
+- id: canva-inkscape
+  category: vector-graphics
+  proprietary: Canva
+  project_id: inkscape
+  note_key: canva-inkscape
+
+- id: canva-krita
+  category: digital-painting
+  proprietary: Canva
+  project_id: krita
+  note_key: canva-krita
+
+- id: coreldraw-inkscape
+  category: vector-graphics
+  proprietary: CorelDRAW
+  project_id: inkscape
+  note_key: coreldraw-inkscape
+
+- id: capcut-kdenlive
+  category: video-editing
+  proprietary: CapCut
+  project_id: kdenlive
+  note_key: capcut-kdenlive
+
+- id: capcut-shotcut
+  category: video-editing
+  proprietary: CapCut
+  project_id: shotcut
+  note_key: capcut-shotcut
+
+- id: capcut-openshot
+  category: video-editing
+  proprietary: CapCut
+  project_id: openshot
+  note_key: capcut-openshot
+
+- id: capcut-losslesscut
+  category: video-editing
+  proprietary: CapCut
+  project_id: losslesscut
+  note_key: capcut-losslesscut
+
+- id: adobe-premiere-pro-kdenlive
+  category: video-editing
+  proprietary: Adobe Premiere Pro
+  project_id: kdenlive
+  note_key: adobe-premiere-pro-kdenlive
+
+- id: adobe-premiere-pro-shotcut
+  category: video-editing
+  proprietary: Adobe Premiere Pro
+  project_id: shotcut
+  note_key: adobe-premiere-pro-shotcut
+
+- id: final-cut-pro-kdenlive
+  category: video-editing
+  proprietary: Final Cut Pro
+  project_id: kdenlive
+  note_key: final-cut-pro-kdenlive
+
+- id: adobe-after-effects-blender
+  category: motion-graphics-vfx
+  proprietary: Adobe After Effects
+  project_id: blender
+  note_key: adobe-after-effects-blender
+
+- id: adobe-after-effects-natron
+  category: motion-graphics-vfx
+  proprietary: Adobe After Effects
+  project_id: natron
+  note_key: adobe-after-effects-natron
+
+- id: adobe-after-effects-glaxnimate
+  category: motion-graphics-vfx
+  proprietary: Adobe After Effects
+  project_id: glaxnimate
+  note_key: adobe-after-effects-glaxnimate
+
+- id: davinci-resolve-kdenlive
+  category: video-editing
+  proprietary: DaVinci Resolve
+  project_id: kdenlive
+  note_key: davinci-resolve-kdenlive
+
+- id: davinci-resolve-blender
+  category: motion-graphics-vfx
+  proprietary: DaVinci Resolve
+  project_id: blender
+  note_key: davinci-resolve-blender
+
+- id: screenflow-obs-studio
+  category: screen-recording-streaming
+  proprietary: ScreenFlow
+  project_id: obs-studio
+  note_key: screenflow-obs-studio
+
+- id: adobe-audition-audacity
+  category: audio-editing-recording
+  proprietary: Adobe Audition
+  project_id: audacity
+  note_key: adobe-audition-audacity
+
+- id: adobe-audition-ardour
+  category: music-production-daw
+  proprietary: Adobe Audition
+  project_id: ardour
+  note_key: adobe-audition-ardour
+
+- id: ableton-live-ardour
+  category: music-production-daw
+  proprietary: Ableton Live
+  project_id: ardour
+  note_key: ableton-live-ardour
+
+- id: ableton-live-lmms
+  category: music-production-daw
+  proprietary: Ableton Live
+  project_id: lmms
+  note_key: ableton-live-lmms
+
+- id: fl-studio-lmms
+  category: music-production-daw
+  proprietary: FL Studio
+  project_id: lmms
+  note_key: fl-studio-lmms
+
+- id: logic-pro-ardour
+  category: music-production-daw
+  proprietary: Logic Pro
+  project_id: ardour
+  note_key: logic-pro-ardour
+
+- id: logic-pro-qtractor
+  category: music-production-daw
+  proprietary: Logic Pro
+  project_id: qtractor
+  note_key: logic-pro-qtractor
+
+- id: serato-dj-mixxx
+  category: dj
+  proprietary: Serato DJ
+  project_id: mixxx
+  note_key: serato-dj-mixxx
+
+- id: traktor-pro-mixxx
+  category: dj
+  proprietary: Traktor Pro
+  project_id: mixxx
+  note_key: traktor-pro-mixxx
+
+- id: autodesk-maya-blender
+  category: 3d-modeling-animation
+  proprietary: Autodesk Maya
+  project_id: blender
+  note_key: autodesk-maya-blender
+
+- id: autodesk-3ds-max-blender
+  category: 3d-modeling-animation
+  proprietary: Autodesk 3ds Max
+  project_id: blender
+  note_key: autodesk-3ds-max-blender
+
+- id: autocad-freecad
+  category: cad
+  proprietary: AutoCAD
+  project_id: freecad
+  note_key: autocad-freecad
+
+- id: autocad-librecad
+  category: cad
+  proprietary: AutoCAD
+  project_id: librecad
+  note_key: autocad-librecad
+
+- id: solidworks-freecad
+  category: cad
+  proprietary: SolidWorks
+  project_id: freecad
+  note_key: solidworks-freecad
+
+- id: solidworks-solvespace
+  category: cad
+  proprietary: SolidWorks
+  project_id: solvespace
+  note_key: solidworks-solvespace
+
+- id: fusion-360-freecad
+  category: cad
+  proprietary: Fusion 360
+  project_id: freecad
+  note_key: fusion-360-freecad
+
+- id: fusion-360-openscad
+  category: cad
+  proprietary: Fusion 360
+  project_id: openscad
+  note_key: fusion-360-openscad
+
+- id: sketchup-blender
+  category: 3d-modeling-animation
+  proprietary: SketchUp
+  project_id: blender
+  note_key: sketchup-blender
+
+- id: sketchup-freecad
+  category: cad
+  proprietary: SketchUp
+  project_id: freecad
+  note_key: sketchup-freecad
+
+- id: microsoft-office-libreoffice
+  category: office-suites
+  proprietary: Microsoft Office
+  project_id: libreoffice
+  note_key: microsoft-office-libreoffice
+
+- id: microsoft-365-onlyoffice
+  category: office-suites
+  proprietary: Microsoft 365
+  project_id: onlyoffice
+  note_key: microsoft-365-onlyoffice
+
+- id: google-docs-sheets-slides-onlyoffice
+  category: office-suites
+  proprietary: Google Docs / Sheets / Slides
+  project_id: onlyoffice
+  note_key: google-docs-sheets-slides-onlyoffice
+
+- id: google-docs-sheets-slides-collabora-online
+  category: document-collaboration
+  proprietary: Google Docs / Sheets / Slides
+  project_id: collabora-online
+  note_key: google-docs-sheets-slides-collabora-online
+
+- id: adobe-acrobat-stirling-pdf
+  category: pdf-tools
+  proprietary: Adobe Acrobat
+  project_id: stirling-pdf
+  note_key: adobe-acrobat-stirling-pdf
+
+- id: adobe-acrobat-pdf-arranger
+  category: pdf-tools
+  proprietary: Adobe Acrobat
+  project_id: pdf-arranger
+  note_key: adobe-acrobat-pdf-arranger
+
+- id: docusign-docuseal
+  category: e-signature
+  proprietary: DocuSign
+  project_id: docuseal
+  note_key: docusign-docuseal
+
+- id: docusign-opensign
+  category: e-signature
+  proprietary: DocuSign
+  project_id: opensign
+  note_key: docusign-opensign
+
+- id: notion-appflowy
+  category: note-taking
+  proprietary: Notion
+  project_id: appflowy
+  note_key: notion-appflowy
+
+- id: notion-logseq
+  category: note-taking
+  proprietary: Notion
+  project_id: logseq
+  note_key: notion-logseq
+
+- id: evernote-joplin
+  category: note-taking
+  proprietary: Evernote
+  project_id: joplin
+  note_key: evernote-joplin
+
+- id: microsoft-onenote-joplin
+  category: note-taking
+  proprietary: Microsoft OneNote
+  project_id: joplin
+  note_key: microsoft-onenote-joplin
+
+- id: microsoft-onenote-xournalpp
+  category: note-taking
+  proprietary: Microsoft OneNote
+  project_id: xournalpp
+  note_key: microsoft-onenote-xournalpp
+
+- id: confluence-bookstack
+  category: knowledge-base-wiki
+  proprietary: Confluence
+  project_id: bookstack
+  note_key: confluence-bookstack
+
+- id: confluence-wiki-js
+  category: knowledge-base-wiki
+  proprietary: Confluence
+  project_id: wiki-js
+  note_key: confluence-wiki-js
+
+- id: confluence-xwiki
+  category: knowledge-base-wiki
+  proprietary: Confluence
+  project_id: xwiki
+  note_key: confluence-xwiki
+
+- id: slack-mattermost
+  category: team-chat
+  proprietary: Slack
+  project_id: mattermost
+  note_key: slack-mattermost
+
+- id: slack-zulip
+  category: team-chat
+  proprietary: Slack
+  project_id: zulip
+  note_key: slack-zulip
+
+- id: slack-rocket-chat
+  category: team-chat
+  proprietary: Slack
+  project_id: rocket-chat
+  note_key: slack-rocket-chat
+
+- id: discord-element
+  category: team-chat
+  proprietary: Discord
+  project_id: element
+  note_key: discord-element
+
+- id: microsoft-teams-mattermost
+  category: team-chat
+  proprietary: Microsoft Teams
+  project_id: mattermost
+  note_key: microsoft-teams-mattermost
+
+- id: zoom-jitsi-meet
+  category: video-conferencing
+  proprietary: Zoom
+  project_id: jitsi-meet
+  note_key: zoom-jitsi-meet
+
+- id: google-meet-jitsi-meet
+  category: video-conferencing
+  proprietary: Google Meet
+  project_id: jitsi-meet
+  note_key: google-meet-jitsi-meet
+
+- id: zoom-bigbluebutton
+  category: video-conferencing
+  proprietary: Zoom
+  project_id: bigbluebutton
+  note_key: zoom-bigbluebutton
+
+- id: calendly-cal-com
+  category: scheduling
+  proprietary: Calendly
+  project_id: cal-com
+  note_key: calendly-cal-com
+
+- id: loom-obs-studio
+  category: screen-recording-streaming
+  proprietary: Loom
+  project_id: obs-studio
+  note_key: loom-obs-studio
+
+- id: jira-openproject
+  category: issue-project-management
+  proprietary: Jira
+  project_id: openproject
+  note_key: jira-openproject
+
+- id: jira-taiga
+  category: issue-project-management
+  proprietary: Jira
+  project_id: taiga
+  note_key: jira-taiga
+
+- id: asana-openproject
+  category: issue-project-management
+  proprietary: Asana
+  project_id: openproject
+  note_key: asana-openproject
+
+- id: asana-leantime
+  category: issue-project-management
+  proprietary: Asana
+  project_id: leantime
+  note_key: asana-leantime
+
+- id: trello-wekan
+  category: kanban
+  proprietary: Trello
+  project_id: wekan
+  note_key: trello-wekan
+
+- id: trello-kanboard
+  category: kanban
+  proprietary: Trello
+  project_id: kanboard
+  note_key: trello-kanboard
+
+- id: miro-excalidraw
+  category: whiteboards
+  proprietary: Miro
+  project_id: excalidraw
+  note_key: miro-excalidraw
+
+- id: lucidchart-diagrams-net
+  category: diagramming
+  proprietary: Lucidchart
+  project_id: diagrams-net
+  note_key: lucidchart-diagrams-net
+
+- id: microsoft-visio-diagrams-net
+  category: diagramming
+  proprietary: Microsoft Visio
+  project_id: diagrams-net
+  note_key: microsoft-visio-diagrams-net
+
+- id: dropbox-nextcloud
+  category: file-sync-cloud
+  proprietary: Dropbox
+  project_id: nextcloud
+  note_key: dropbox-nextcloud
+
+- id: google-drive-nextcloud
+  category: file-sync-cloud
+  proprietary: Google Drive
+  project_id: nextcloud
+  note_key: google-drive-nextcloud
+
+- id: onedrive-nextcloud
+  category: file-sync-cloud
+  proprietary: OneDrive
+  project_id: nextcloud
+  note_key: onedrive-nextcloud
+
+- id: dropbox-syncthing
+  category: file-sync-cloud
+  proprietary: Dropbox
+  project_id: syncthing
+  note_key: dropbox-syncthing
+
+- id: google-photos-immich
+  category: photo-library
+  proprietary: Google Photos
+  project_id: immich
+  note_key: google-photos-immich
+
+- id: icloud-photos-immich
+  category: photo-library
+  proprietary: iCloud Photos
+  project_id: immich
+  note_key: icloud-photos-immich
+
+- id: plex-jellyfin
+  category: media-servers
+  proprietary: Plex
+  project_id: jellyfin
+  note_key: plex-jellyfin
+
+- id: youtube-peertube
+  category: video-hosting
+  proprietary: YouTube
+  project_id: peertube
+  note_key: youtube-peertube
+
+- id: spotify-self-hosted-library-use-case-navidrome
+  category: music-streaming
+  proprietary: Spotify (self-hosted library use case)
+  project_id: navidrome
+  note_key: spotify-self-hosted-library-use-case-navidrome
+
+- id: 1password-keepassxc
+  category: password-managers
+  proprietary: 1Password
+  project_id: keepassxc
+  note_key: 1password-keepassxc
+
+- id: 1password-bitwarden
+  category: password-managers
+  proprietary: 1Password
+  project_id: bitwarden
+  note_key: 1password-bitwarden
+
+- id: lastpass-vaultwarden
+  category: password-managers
+  proprietary: LastPass
+  project_id: vaultwarden
+  note_key: lastpass-vaultwarden
+
+- id: lastpass-keepassxc
+  category: password-managers
+  proprietary: LastPass
+  project_id: keepassxc
+  note_key: lastpass-keepassxc
+
+- id: auth0-keycloak
+  category: iam-sso
+  proprietary: Auth0
+  project_id: keycloak
+  note_key: auth0-keycloak
+
+- id: okta-keycloak
+  category: iam-sso
+  proprietary: Okta
+  project_id: keycloak
+  note_key: okta-keycloak
+
+- id: teamviewer-rustdesk
+  category: remote-desktop
+  proprietary: TeamViewer
+  project_id: rustdesk
+  note_key: teamviewer-rustdesk
+
+- id: anydesk-rustdesk
+  category: remote-desktop
+  proprietary: AnyDesk
+  project_id: rustdesk
+  note_key: anydesk-rustdesk
+
+- id: teamviewer-meshcentral
+  category: remote-desktop
+  proprietary: TeamViewer
+  project_id: meshcentral
+  note_key: teamviewer-meshcentral
+
+- id: microsoft-remote-desktop-manager-remmina
+  category: remote-desktop
+  proprietary: Microsoft Remote Desktop Manager
+  project_id: remmina
+  note_key: microsoft-remote-desktop-manager-remmina
+
+- id: sublime-text-kate
+  category: ide-code-editors
+  proprietary: Sublime Text
+  project_id: kate
+  note_key: sublime-text-kate
+
+- id: sublime-text-geany
+  category: ide-code-editors
+  proprietary: Sublime Text
+  project_id: geany
+  note_key: sublime-text-geany
+
+- id: visual-studio-code-microsoft-distribution-vscodium
+  category: ide-code-editors
+  proprietary: Visual Studio Code (Microsoft distribution)
+  project_id: vscodium
+  note_key: visual-studio-code-microsoft-distribution-vscodium
+
+- id: postman-bruno
+  category: api-clients
+  proprietary: Postman
+  project_id: bruno
+  note_key: postman-bruno
+
+- id: postman-hoppscotch
+  category: api-clients
+  proprietary: Postman
+  project_id: hoppscotch
+  note_key: postman-hoppscotch
+
+- id: insomnia-bruno
+  category: api-clients
+  proprietary: Insomnia
+  project_id: bruno
+  note_key: insomnia-bruno
+
+- id: github-forgejo
+  category: git-forges
+  proprietary: GitHub
+  project_id: forgejo
+  note_key: github-forgejo
+
+- id: github-gitea
+  category: git-forges
+  proprietary: GitHub
+  project_id: gitea
+  note_key: github-gitea
+
+- id: github-gitlab-community-edition
+  category: git-forges
+  proprietary: GitHub
+  project_id: gitlab-community-edition
+  note_key: github-gitlab-community-edition
+
+- id: docker-desktop-podman
+  category: containers
+  proprietary: Docker Desktop
+  project_id: podman
+  note_key: docker-desktop-podman
+
+- id: docker-desktop-rancher-desktop
+  category: containers
+  proprietary: Docker Desktop
+  project_id: rancher-desktop
+  note_key: docker-desktop-rancher-desktop
+
+- id: docker-desktop-colima
+  category: containers
+  proprietary: Docker Desktop
+  project_id: colima
+  note_key: docker-desktop-colima
+
+- id: terraform-enterprise-terraform-cli-post-bsl-opentofu
+  category: infrastructure-as-code
+  proprietary: Terraform Enterprise / Terraform CLI post-BSL
+  project_id: opentofu
+  note_key: terraform-enterprise-terraform-cli-post-bsl-opentofu
+
+- id: oracle-database-postgresql
+  category: databases-relational
+  proprietary: Oracle Database
+  project_id: postgresql
+  note_key: oracle-database-postgresql
+
+- id: microsoft-sql-server-postgresql
+  category: databases-relational
+  proprietary: Microsoft SQL Server
+  project_id: postgresql
+  note_key: microsoft-sql-server-postgresql
+
+- id: oracle-database-mariadb
+  category: databases-relational
+  proprietary: Oracle Database
+  project_id: mariadb
+  note_key: oracle-database-mariadb
+
+- id: snowflake-clickhouse
+  category: databases-analytical
+  proprietary: Snowflake
+  project_id: clickhouse
+  note_key: snowflake-clickhouse
+
+- id: bigquery-clickhouse
+  category: databases-analytical
+  proprietary: BigQuery
+  project_id: clickhouse
+  note_key: bigquery-clickhouse
+
+- id: bigquery-duckdb
+  category: databases-analytical
+  proprietary: BigQuery
+  project_id: duckdb
+  note_key: bigquery-duckdb
+
+- id: trino-starburst-enterprise-trino
+  category: distributed-query-engines
+  proprietary: Trino Starburst Enterprise
+  project_id: trino
+  note_key: trino-starburst-enterprise-trino
+
+- id: redis-enterprise-features-valkey
+  category: key-value-databases
+  proprietary: Redis Enterprise features
+  project_id: valkey
+  note_key: redis-enterprise-features-valkey
+
+- id: elasticsearch-opensearch
+  category: search-engines
+  proprietary: Elasticsearch
+  project_id: opensearch
+  note_key: elasticsearch-opensearch
+
+- id: algolia-meilisearch
+  category: search-engines
+  proprietary: Algolia
+  project_id: meilisearch
+  note_key: algolia-meilisearch
+
+- id: tableau-apache-superset
+  category: business-intelligence
+  proprietary: Tableau
+  project_id: apache-superset
+  note_key: tableau-apache-superset
+
+- id: power-bi-metabase
+  category: business-intelligence
+  proprietary: Power BI
+  project_id: metabase
+  note_key: power-bi-metabase
+
+- id: tableau-redash
+  category: business-intelligence
+  proprietary: Tableau
+  project_id: redash
+  note_key: tableau-redash
+
+- id: google-analytics-matomo
+  category: web-analytics
+  proprietary: Google Analytics
+  project_id: matomo
+  note_key: google-analytics-matomo
+
+- id: google-analytics-plausible-analytics
+  category: web-analytics
+  proprietary: Google Analytics
+  project_id: plausible-analytics
+  note_key: google-analytics-plausible-analytics
+
+- id: google-analytics-umami
+  category: web-analytics
+  proprietary: Google Analytics
+  project_id: umami
+  note_key: google-analytics-umami
+
+- id: datadog-grafana
+  category: observability-metrics
+  proprietary: Datadog
+  project_id: grafana
+  note_key: datadog-grafana
+
+- id: datadog-prometheus
+  category: observability-metrics
+  proprietary: Datadog
+  project_id: prometheus
+  note_key: datadog-prometheus
+
+- id: sentry-glitchtip
+  category: error-monitoring
+  proprietary: Sentry
+  project_id: glitchtip
+  note_key: sentry-glitchtip
+
+- id: heroku-dokku
+  category: paas-deployment
+  proprietary: Heroku
+  project_id: dokku
+  note_key: heroku-dokku
+
+- id: heroku-caprover
+  category: paas-deployment
+  proprietary: Heroku
+  project_id: caprover
+  note_key: heroku-caprover
+
+- id: vercel-coolify
+  category: paas-deployment
+  proprietary: Vercel
+  project_id: coolify
+  note_key: vercel-coolify
+
+- id: netlify-coolify
+  category: paas-deployment
+  proprietary: Netlify
+  project_id: coolify
+  note_key: netlify-coolify
+
+- id: vmware-vsphere-proxmox-ve
+  category: virtualization
+  proprietary: VMware vSphere
+  project_id: proxmox-ve
+  note_key: vmware-vsphere-proxmox-ve
+
+- id: citrix-hypervisor-xcp-ng
+  category: virtualization
+  proprietary: Citrix Hypervisor
+  project_id: xcp-ng
+  note_key: citrix-hypervisor-xcp-ng
+
+- id: vmware-workstation-qemu
+  category: virtualization
+  proprietary: VMware Workstation
+  project_id: qemu
+  note_key: vmware-workstation-qemu
+
+- id: vmware-workstation-virt-manager
+  category: virtualization
+  proprietary: VMware Workstation
+  project_id: virt-manager
+  note_key: vmware-workstation-virt-manager
+
+- id: salesforce-suitecrm
+  category: crm-erp
+  proprietary: Salesforce
+  project_id: suitecrm
+  note_key: salesforce-suitecrm
+
+- id: salesforce-erpnext
+  category: crm-erp
+  proprietary: Salesforce
+  project_id: erpnext
+  note_key: salesforce-erpnext
+
+- id: hubspot-odoo-community
+  category: crm-erp
+  proprietary: HubSpot
+  project_id: odoo-community
+  note_key: hubspot-odoo-community
+
+- id: zendesk-zammad
+  category: customer-support
+  proprietary: Zendesk
+  project_id: zammad
+  note_key: zendesk-zammad
+
+- id: intercom-chatwoot
+  category: customer-support
+  proprietary: Intercom
+  project_id: chatwoot
+  note_key: intercom-chatwoot
+
+- id: quickbooks-gnucash
+  category: accounting-finance
+  proprietary: QuickBooks
+  project_id: gnucash
+  note_key: quickbooks-gnucash
+
+- id: shopify-woocommerce
+  category: ecommerce
+  proprietary: Shopify
+  project_id: woocommerce
+  note_key: shopify-woocommerce
+
+- id: shopify-medusa
+  category: ecommerce
+  proprietary: Shopify
+  project_id: medusa
+  note_key: shopify-medusa
+
+- id: shopify-saleor
+  category: ecommerce
+  proprietary: Shopify
+  project_id: saleor
+  note_key: shopify-saleor
+
+- id: mailchimp-mautic
+  category: email-marketing
+  proprietary: Mailchimp
+  project_id: mautic
+  note_key: mailchimp-mautic
+
+- id: mailchimp-listmonk
+  category: email-marketing
+  proprietary: Mailchimp
+  project_id: listmonk
+  note_key: mailchimp-listmonk
+
+- id: typeform-limesurvey
+  category: forms-surveys
+  proprietary: Typeform
+  project_id: limesurvey
+  note_key: typeform-limesurvey
+
+- id: squarespace-wordpress
+  category: cms
+  proprietary: Squarespace
+  project_id: wordpress
+  note_key: squarespace-wordpress
+
+- id: wix-wordpress
+  category: cms
+  proprietary: Wix
+  project_id: wordpress
+  note_key: wix-wordpress
+
+- id: medium-ghost
+  category: publishing-newsletters
+  proprietary: Medium
+  project_id: ghost
+  note_key: medium-ghost
+
+- id: contentful-strapi
+  category: headless-cms
+  proprietary: Contentful
+  project_id: strapi
+  note_key: contentful-strapi
+
+- id: contentful-payload
+  category: headless-cms
+  proprietary: Contentful
+  project_id: payload
+  note_key: contentful-payload
+
+- id: webflow-cms-use-case-drupal
+  category: cms
+  proprietary: Webflow (CMS use case)
+  project_id: drupal
+  note_key: webflow-cms-use-case-drupal
+
+- id: webflow-visual-builder-use-case-grapesjs
+  category: web-builders
+  proprietary: Webflow (visual builder use case)
+  project_id: grapesjs
+  note_key: webflow-visual-builder-use-case-grapesjs
+
+- id: circle-community-platforms-discourse
+  category: community-forums
+  proprietary: Circle / community platforms
+  project_id: discourse
+  note_key: circle-community-platforms-discourse
+
+- id: retool-appsmith
+  category: low-code-internal-tools
+  proprietary: Retool
+  project_id: appsmith
+  note_key: retool-appsmith
+
+- id: retool-tooljet
+  category: low-code-internal-tools
+  proprietary: Retool
+  project_id: tooljet
+  note_key: retool-tooljet
+
+- id: matlab-gnu-octave
+  category: numerical-computing
+  proprietary: MATLAB
+  project_id: gnu-octave
+  note_key: matlab-gnu-octave
+
+- id: mathematica-sagemath
+  category: computer-algebra
+  proprietary: Mathematica
+  project_id: sagemath
+  note_key: mathematica-sagemath
+
+- id: mathematica-maxima
+  category: computer-algebra
+  proprietary: Mathematica
+  project_id: maxima
+  note_key: mathematica-maxima
+
+- id: ibm-spss-statistics-gnu-pspp
+  category: statistics
+  proprietary: IBM SPSS Statistics
+  project_id: gnu-pspp
+  note_key: ibm-spss-statistics-gnu-pspp
+
+- id: sas-r
+  category: statistics
+  proprietary: SAS
+  project_id: r
+  note_key: sas-r
+
+- id: arcgis-pro-qgis
+  category: gis
+  proprietary: ArcGIS Pro
+  project_id: qgis
+  note_key: arcgis-pro-qgis
+
+- id: arcgis-grass-gis
+  category: gis
+  proprietary: ArcGIS
+  project_id: grass-gis
+  note_key: arcgis-grass-gis
+
+- id: mapbox-gl-js-proprietary-generations-maplibre-gl-js
+  category: web-mapping
+  proprietary: Mapbox GL JS proprietary generations
+  project_id: maplibre-gl-js
+  note_key: mapbox-gl-js-proprietary-generations-maplibre-gl-js
+
+- id: google-maps-javascript-api-openlayers
+  category: web-mapping
+  proprietary: Google Maps JavaScript API
+  project_id: openlayers
+  note_key: google-maps-javascript-api-openlayers
+
+- id: google-maps-javascript-api-leaflet
+  category: web-mapping
+  proprietary: Google Maps JavaScript API
+  project_id: leaflet
+  note_key: google-maps-javascript-api-leaflet
+
+- id: zapier-huginn
+  category: workflow-automation
+  proprietary: Zapier
+  project_id: huginn
+  note_key: zapier-huginn
+
+- id: zapier-node-red
+  category: workflow-automation
+  proprietary: Zapier
+  project_id: node-red
+  note_key: zapier-node-red
+
+- id: microsoft-power-automate-node-red
+  category: workflow-automation
+  proprietary: Microsoft Power Automate
+  project_id: node-red
+  note_key: microsoft-power-automate-node-red
+
+- id: ifttt-home-assistant
+  category: smart-home
+  proprietary: IFTTT
+  project_id: home-assistant
+  note_key: ifttt-home-assistant
+
+- id: cyberlink-powerdvd-vlc-media-player
+  category: video-players
+  proprietary: CyberLink PowerDVD
+  project_id: vlc-media-player
+  note_key: cyberlink-powerdvd-vlc-media-player
+
+- id: elmedia-player-pro-mpv
+  category: video-players
+  proprietary: Elmedia Player PRO
+  project_id: mpv
+  note_key: elmedia-player-pro-mpv
+
+- id: lm-studio-ollama
+  category: llm-runtimes
+  proprietary: LM Studio
+  project_id: ollama
+  note_key: lm-studio-ollama
+
+- id: github-copilot-continue
+  category: ai-coding-assistants
+  proprietary: GitHub Copilot
+  project_id: continue
+  note_key: github-copilot-continue

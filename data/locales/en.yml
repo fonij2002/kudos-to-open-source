@@ -1,0 +1,376 @@
+meta:
+  code: en
+  name: English
+  native_name: English
+  direction: ltr
+  site_title: Kudos to Open Source
+
+ui:
+  skip: Skip to results
+  brand_label: Kudos to Open Source home
+  github: GitHub
+  theme: Toggle color theme
+  language: Language
+  eyebrow: Open-source first
+  hero_title: Find an open-source alternative.
+  hero_copy: Discover open-source alternatives to the software you pay for.
+  search_placeholder: Search Figma CapCut Photoshop Postman…
+  search_label: Search alternatives
+  mappings: mappings
+  projects: open projects
+  categories_count: categories
+  catalog: Catalog
+  loading: Loading alternatives…
+  clear_filters: Clear filters
+  category: Category
+  all_categories: All categories
+  platform: Platform
+  all_platforms: All platforms
+  showing_matches: Showing matches for
+  no_matches: No matches found
+  no_matches_help: Try a broader search or clear one of the filters.
+  catalog_unavailable: Catalog unavailable
+  catalog_unavailable_help: Refresh the page or try again later.
+  instead_of: Instead of
+  try: Try
+  runs_on: Runs on
+  limitations: Things to know
+  install_use: Install / use
+  visit_project: Project
+  footer: What do we build for, if not to lessen each other’s hardship?
+  contribute: Contribute
+  source: Source
+  use_light: Use light theme
+  use_dark: Use dark theme
+  proprietary_product: Proprietary / licensed product
+  open_source_alternative: Open-source alternative
+  notes: Notes
+  back_to_catalog: Back to the main catalog
+  category_intro: Open-source alternatives mapped to commonly used proprietary or commercially licensed products.
+  category_index_title: Categories
+  category_index_intro: Browse the catalog by focused category. Categories are listed alphabetically.
+
+categories:
+  3d-modeling-animation: 3D Modeling & Animation
+  accounting-finance: Accounting & Finance
+  ai-coding-assistants: AI Coding Assistants
+  api-clients: API Clients
+  audio-editing-recording: Audio Editing & Recording
+  business-intelligence: Business Intelligence
+  cad: CAD
+  cms: CMS
+  community-forums: Community Forums
+  computer-algebra: Computer Algebra
+  containers: Containers
+  crm-erp: CRM & ERP
+  customer-support: Customer Support
+  databases-analytical: Databases — Analytical
+  databases-relational: Databases — Relational
+  desktop-publishing: Desktop Publishing
+  diagramming: Diagramming
+  digital-painting: Digital Painting
+  distributed-query-engines: Distributed Query Engines
+  dj: DJ Software
+  document-collaboration: Document Collaboration
+  e-signature: E-signature
+  ecommerce: E-commerce
+  email-marketing: Email Marketing
+  error-monitoring: Error Monitoring
+  file-sync-cloud: File Sync & Private Cloud
+  forms-surveys: Forms & Surveys
+  gis: GIS
+  git-forges: Git Forges
+  headless-cms: Headless CMS
+  iam-sso: Identity IAM & SSO
+  ide-code-editors: IDE & Code Editors
+  image-editing: Image Editing
+  infrastructure-as-code: Infrastructure as Code
+  issue-project-management: Issue & Project Management
+  kanban: Kanban
+  key-value-databases: Key-value Databases
+  knowledge-base-wiki: Knowledge Base & Wiki
+  llm-runtimes: LLM Runtimes
+  low-code-internal-tools: Low-code Internal Tools
+  media-servers: Media Servers
+  motion-graphics-vfx: Motion Graphics & VFX
+  music-production-daw: Music Production & DAW
+  music-streaming: Music Streaming
+  note-taking: Note Taking
+  numerical-computing: Numerical Computing
+  observability-metrics: Observability & Metrics
+  office-suites: Office Suites
+  paas-deployment: PaaS & App Deployment
+  password-managers: Password Managers
+  pdf-tools: PDF Tools
+  photo-library: Photo Library
+  photo-management-raw: Photo Management & RAW
+  publishing-newsletters: Publishing & Newsletters
+  remote-desktop: Remote Desktop
+  scheduling: Scheduling
+  screen-recording-streaming: Screen Recording & Streaming
+  search-engines: Search Engines
+  smart-home: Smart Home
+  statistics: Statistics
+  team-chat: Team Chat
+  ui-ux-design: UI/UX Design
+  vector-graphics: Vector Graphics
+  video-conferencing: Video Conferencing
+  video-editing: Video Editing
+  video-hosting: Video Hosting
+  video-players: Video Players
+  virtualization: Virtualization
+  web-analytics: Web Analytics
+  web-builders: Visual Web Builders
+  web-mapping: Web Mapping
+  whiteboards: Whiteboards
+  workflow-automation: Workflow Automation
+
+platforms:
+  windows: Windows
+  macos: macOS
+  linux: Linux
+  android: Android
+  ios: iOS
+  web: Web
+  docker: Docker
+  linux-server: Linux server
+  cli: CLI
+  vscode: VS Code
+  jetbrains: JetBrains IDEs
+  wordpress: WordPress
+  javascript: JavaScript / Browser
+
+limitations:
+  advanced-features-limited: Advanced features are limited
+  advanced-setup: Advanced setup
+  advanced-workflow: Steeper learning curve
+  bare-metal: Usually needs a dedicated host
+  browser-first: Browser-first
+  cluster-oriented: Cluster-oriented
+  code-driven: Code-driven workflow
+  collaboration-limited: Built-in collaboration is limited
+  community-compatible-server: Community-compatible server not official Bitwarden server
+  desktop-focused: Desktop-focused
+  developer-oriented: Developer-oriented
+  docker-recommended: Docker recommended
+  embedded-local-first: Embedded/local-first not a hosted warehouse
+  enterprise-paid: Some enterprise features are paid
+  extension-marketplace-differs: Extension marketplace/telemetry defaults differ from VS Code
+  external-backend: Needs a metrics/logs/data backend
+  file-compatibility: Proprietary file compatibility can vary
+  flow-programming: Flow-based programming model
+  format-support: Codec/format support varies by platform/build
+  gpu-recommended: GPU recommended for heavy workloads
+  hardware-integration-varies: Hardware/controller integration varies
+  ide-extension: Requires a supported IDE
+  linux-only: Linux only
+  linux-server: Linux server deployment
+  local-first-sync: Sync/collaboration needs separate configuration or service
+  local-library-only: Streams your own library; no commercial catalog
+  mac-linux-only: No native Windows support
+  matrix-account-or-server: Requires a Matrix account/server
+  metrics-focused: Metrics-focused; logs/traces need other tools
+  model-download: Models are separate downloads
+  narrow-scope: Narrower scope than a full suite
+  newsletter-focused: Focused on newsletters rather than full marketing automation
+  no-cloud-catalog: No bundled commercial model catalog
+  no-native-windows: No native Windows server build
+  open-core: Open core some code/features are proprietary
+  paid-official-builds: Official binaries may require payment/donation
+  partial-editor: Great for simple/lossless edits not a full NLE
+  peer-to-peer-not-cloud: P2P sync; no hosted cloud storage
+  platform-feature-gaps: Some features differ by OS
+  plugin-ecosystem: Plugin/ecosystem differs from the proprietary product
+  plugin-security: Plugins/themes require security maintenance
+  provider-required: AI model/provider must be configured separately
+  publishing-focused: Focused on publishing rather than a general CMS suite
+  recording-not-editor: Recording/streaming first; not a full video editor
+  requires-wordpress: Requires WordPress
+  resource-heavy: Can be resource-intensive
+  security-hardening: Internet-facing deployments need hardening
+  self-hosting-optional: Self-hosting is optional
+  self-hosting-required: Self-hosting/server required
+  server-admin: Server administration needed
+  third-party-windows-builds: Windows binaries are mostly third-party
+  web-library: Developer library/framework not a standalone app
+  cli-first: CLI-first workflow
+  upstream-read-only: Upstream repository is read-only / no longer actively maintained
+
+notes:
+  figma-penpot: UI/UX design prototyping design systems and real-time collaboration.
+  adobe-photoshop-gimp: General raster image editing and photo manipulation.
+  adobe-photoshop-krita: Digital painting illustration and raster editing.
+  adobe-illustrator-inkscape: Vector illustration and SVG authoring.
+  adobe-indesign-scribus: Desktop publishing and page layout.
+  adobe-lightroom-darktable: Non-destructive RAW workflow and photo management.
+  adobe-lightroom-rawtherapee: High-control RAW photo processing.
+  adobe-lightroom-digikam: Photo management tagging and editing.
+  canva-inkscape: Strong for vector-first design; less template-centric than Canva.
+  canva-krita: Useful for raster artwork and social graphics.
+  coreldraw-inkscape: Vector graphics and illustration.
+  capcut-kdenlive: Full non-linear editor with effects titles subtitles and multi-track editing.
+  capcut-shotcut: Cross-platform timeline editor with broad format support.
+  capcut-openshot: Beginner-friendly cross-platform video editor.
+  capcut-losslesscut: Excellent for fast lossless trimming and simple edits.
+  adobe-premiere-pro-kdenlive: Professional-style multi-track NLE workflow.
+  adobe-premiere-pro-shotcut: General-purpose NLE with filters scopes and export controls.
+  final-cut-pro-kdenlive: Cross-platform professional-style editing.
+  adobe-after-effects-blender: Compositing motion graphics tracking and 3D.
+  adobe-after-effects-natron: Node-based compositing and VFX.
+  adobe-after-effects-glaxnimate: 2D vector animation and motion graphics.
+  davinci-resolve-kdenlive: Strong editing; Resolve remains broader in color/audio/VFX integration.
+  davinci-resolve-blender: Compositing tracking and video-sequence editing.
+  screenflow-obs-studio: Recording/streaming first; pair with Kdenlive for editing.
+  adobe-audition-audacity: Waveform recording editing cleanup and plugins.
+  adobe-audition-ardour: Full DAW for recording mixing and mastering.
+  ableton-live-ardour: Professional DAW workflow; different emphasis from Live's clip launcher.
+  ableton-live-lmms: Electronic music production and sequencing.
+  fl-studio-lmms: Pattern-based music production and MIDI sequencing.
+  logic-pro-ardour: Recording editing mixing and plugins.
+  logic-pro-qtractor: Linux-focused audio/MIDI multi-track sequencer.
+  serato-dj-mixxx: DJ mixing library management and controller support.
+  traktor-pro-mixxx: DJ performance and controller workflows.
+  autodesk-maya-blender: Modeling animation rigging rendering and VFX.
+  autodesk-3ds-max-blender: General 3D creation suite.
+  autocad-freecad: Parametric 3D CAD and technical workflows.
+  autocad-librecad: 2D CAD drafting.
+  solidworks-freecad: Parametric mechanical CAD.
+  solidworks-solvespace: Constraint-based parametric 2D/3D CAD.
+  fusion-360-freecad: Parametric CAD; ecosystem/workflow differs from Fusion.
+  fusion-360-openscad: Code-driven solid modeling.
+  sketchup-blender: Flexible modeling with a steeper learning curve.
+  sketchup-freecad: Better fit for engineering than quick architectural sketching.
+  microsoft-office-libreoffice: Writer Calc Impress Draw Base and Math.
+  microsoft-365-onlyoffice: Web/desktop office editors with strong OOXML compatibility.
+  google-docs-sheets-slides-onlyoffice: Collaborative browser-based document editing.
+  google-docs-sheets-slides-collabora-online: Browser collaboration built around LibreOffice technology.
+  adobe-acrobat-stirling-pdf: Open-core PDF platform; check upstream license boundaries for the features you plan to deploy.
+  adobe-acrobat-pdf-arranger: Merge split rotate crop and reorder PDF pages.
+  docusign-docuseal: Self-hostable electronic signatures and document workflows.
+  docusign-opensign: Open-source e-signature workflows.
+  notion-appflowy: Projects docs databases and collaborative workspace.
+  notion-logseq: Local-first knowledge management and graph-based notes.
+  evernote-joplin: Offline-first notes notebooks sync and web clipper.
+  microsoft-onenote-joplin: Cross-platform note taking with sync.
+  microsoft-onenote-xournalpp: Handwritten notes PDF annotation and stylus workflows.
+  confluence-bookstack: Structured team documentation and wiki.
+  confluence-wiki-js: Modern self-hosted wiki.
+  confluence-xwiki: Extensible enterprise wiki and knowledge platform.
+  slack-mattermost: Self-hosted team messaging and collaboration.
+  slack-zulip: Topic-based team chat.
+  slack-rocket-chat: Self-hosted messaging and omnichannel communication.
+  discord-element: Matrix-based decentralized messaging.
+  microsoft-teams-mattermost: Team chat and collaboration; meetings ecosystem differs.
+  zoom-jitsi-meet: Browser-based video conferencing and self-hosting.
+  google-meet-jitsi-meet: Web video meetings.
+  zoom-bigbluebutton: Online classrooms webinars and collaboration.
+  calendly-cal-com: Scheduling infrastructure and booking pages.
+  loom-obs-studio: Excellent capture/recording; async sharing requires separate hosting.
+  jira-openproject: Issue tracking roadmaps and project management.
+  jira-taiga: Agile project management for Scrum/Kanban.
+  asana-openproject: Project planning tasks and timelines.
+  asana-leantime: Project and product management.
+  trello-wekan: Kanban boards.
+  trello-kanboard: Minimal self-hosted Kanban.
+  miro-excalidraw: Collaborative sketch-style whiteboarding.
+  lucidchart-diagrams-net: Diagrams flowcharts and architecture drawings.
+  microsoft-visio-diagrams-net: General diagramming and flowcharts.
+  dropbox-nextcloud: Self-hosted files sync sharing and collaboration.
+  google-drive-nextcloud: File sync/share platform with apps.
+  onedrive-nextcloud: Private cloud storage and collaboration.
+  dropbox-syncthing: Peer-to-peer continuous file synchronization; not a hosted cloud drive.
+  google-photos-immich: Self-hosted photo/video backup and browsing.
+  icloud-photos-immich: Self-hosted photo/video library.
+  plex-jellyfin: Self-hosted media server and clients.
+  youtube-peertube: Federated/self-hosted video publishing.
+  spotify-self-hosted-library-use-case-navidrome: Stream your own music library; not a commercial music catalog.
+  1password-keepassxc: Local/offline password database with browser integration.
+  1password-bitwarden: Open-source core clients/server with commercial modules.
+  lastpass-vaultwarden: Lightweight Bitwarden-compatible self-hosted server.
+  lastpass-keepassxc: Offline-first credential management.
+  auth0-keycloak: Identity and access management SSO OIDC and SAML.
+  okta-keycloak: Self-hostable IAM and SSO.
+  teamviewer-rustdesk: Remote desktop and self-hosting.
+  anydesk-rustdesk: Remote desktop with optional self-hosted infrastructure.
+  teamviewer-meshcentral: Web-based remote device management.
+  microsoft-remote-desktop-manager-remmina: Multi-protocol remote desktop client.
+  sublime-text-kate: Powerful text editor with developer tooling.
+  sublime-text-geany: Lightweight programmer's editor/IDE.
+  visual-studio-code-microsoft-distribution-vscodium: Community binaries of the open-source VS Code codebase without Microsoft branding/telemetry defaults.
+  postman-bruno: Git-friendly API client and test collections.
+  postman-hoppscotch: Web-first API development environment.
+  insomnia-bruno: Desktop API client with plain-text collections.
+  github-forgejo: Self-hosted Git forge with issues PRs and CI ecosystem.
+  github-gitea: Lightweight self-hosted Git service.
+  github-gitlab-community-edition: Integrated Git forge and DevOps platform.
+  docker-desktop-podman: Daemonless containers and Docker-compatible workflows.
+  docker-desktop-rancher-desktop: Desktop Kubernetes and containers.
+  docker-desktop-colima: Lightweight containers/Kubernetes on macOS/Linux.
+  terraform-enterprise-terraform-cli-post-bsl-opentofu: Community-driven Terraform-compatible infrastructure as code.
+  oracle-database-postgresql: Advanced relational database with a large extension ecosystem.
+  microsoft-sql-server-postgresql: General-purpose relational database.
+  oracle-database-mariadb: Popular open relational database MySQL-compatible family.
+  snowflake-clickhouse: High-performance columnar analytics database.
+  bigquery-clickhouse: Columnar OLAP analytics.
+  bigquery-duckdb: Embedded analytical SQL engine excellent for local analytics.
+  trino-starburst-enterprise-trino: Distributed SQL query engine.
+  redis-enterprise-features-valkey: Open-source in-memory data store derived from Redis.
+  elasticsearch-opensearch: Distributed search and analytics engine.
+  algolia-meilisearch: Developer-friendly full-text search.
+  tableau-apache-superset: BI dashboards SQL exploration and visualization.
+  power-bi-metabase: Accessible BI and dashboards; enterprise code is separately licensed.
+  tableau-redash: SQL queries dashboards and sharing.
+  google-analytics-matomo: Web analytics with self-hosting and privacy controls.
+  google-analytics-plausible-analytics: Lightweight privacy-friendly analytics.
+  google-analytics-umami: Simple privacy-focused web analytics.
+  datadog-grafana: Dashboards/observability UI; pair with metrics/logs/traces backends.
+  datadog-prometheus: Metrics collection querying and alerting.
+  sentry-glitchtip: Error tracking and uptime monitoring.
+  heroku-dokku: Git-push PaaS on your own server.
+  heroku-caprover: Self-hosted application platform with Docker.
+  vercel-coolify: Self-hostable application deployment platform.
+  netlify-coolify: Self-hostable app deployment with Git integrations.
+  vmware-vsphere-proxmox-ve: Virtualization platform based on KVM/LXC.
+  citrix-hypervisor-xcp-ng: Virtualization platform based on Xen.
+  vmware-workstation-qemu: Machine emulation and virtualization.
+  vmware-workstation-virt-manager: Desktop UI for libvirt/QEMU/KVM.
+  salesforce-suitecrm: CRM for sales accounts and workflows.
+  salesforce-erpnext: ERP suite with CRM accounting inventory and more.
+  hubspot-odoo-community: ERP/CRM/business apps with proprietary enterprise add-ons.
+  zendesk-zammad: Helpdesk and customer support platform.
+  intercom-chatwoot: Customer messaging inbox and support.
+  quickbooks-gnucash: Desktop accounting for individuals and small businesses.
+  shopify-woocommerce: Open-source commerce on WordPress.
+  shopify-medusa: Headless commerce platform.
+  shopify-saleor: Headless GraphQL commerce.
+  mailchimp-mautic: Marketing automation and campaigns.
+  mailchimp-listmonk: High-performance newsletters and mailing lists.
+  typeform-limesurvey: Self-hosted surveys and forms.
+  squarespace-wordpress: Website publishing and extensible CMS.
+  wix-wordpress: General website/CMS ecosystem.
+  medium-ghost: Publishing newsletters and memberships.
+  contentful-strapi: Headless CMS with APIs.
+  contentful-payload: Developer-first headless CMS.
+  webflow-cms-use-case-drupal: Powerful CMS; visual-design workflow differs.
+  webflow-visual-builder-use-case-grapesjs: Framework for visual web builders.
+  circle-community-platforms-discourse: Community discussion platform.
+  retool-appsmith: Internal tools and admin apps.
+  retool-tooljet: Low-code internal tools.
+  matlab-gnu-octave: Numerical computing with MATLAB-like language compatibility.
+  mathematica-sagemath: Computer algebra mathematics and scientific computing.
+  mathematica-maxima: Computer algebra system.
+  ibm-spss-statistics-gnu-pspp: Statistical analysis with an SPSS-like workflow.
+  sas-r: Statistical computing and data analysis ecosystem.
+  arcgis-pro-qgis: Desktop GIS with plugins and broad data support.
+  arcgis-grass-gis: Geospatial analysis and raster/vector processing.
+  mapbox-gl-js-proprietary-generations-maplibre-gl-js: Open-source web vector-map rendering.
+  google-maps-javascript-api-openlayers: Web mapping library; pair with open map/data providers.
+  google-maps-javascript-api-leaflet: Lightweight interactive web maps.
+  zapier-huginn: Self-hosted agents and event automation.
+  zapier-node-red: Flow-based automation and integrations.
+  microsoft-power-automate-node-red: Visual event-driven workflows.
+  ifttt-home-assistant: Local-first smart-home automation.
+  cyberlink-powerdvd-vlc-media-player: Cross-platform media playback with broad codec and streaming support.
+  elmedia-player-pro-mpv: Minimal scriptable media player with excellent format support and a CLI-first workflow.
+  lm-studio-ollama: Run and serve local language models from a simple CLI and local API.
+  github-copilot-continue: Open-source AI coding extension for supported IDEs; model/provider configuration is separate.
