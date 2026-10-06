@@ -46,9 +46,7 @@ ui:
   open_source_alternative: Open-source alternative
   notes: Notes
   back_to_catalog: Back to the main catalog
-  category_intro: Open-source alternatives mapped to commonly used proprietary or commercially licensed products.
-  category_index_title: Categories
-  category_index_intro: Browse the catalog by focused category. Categories are listed alphabetically.
+  category_index_title: Categories (In alphabetical order)
 
 categories:
   3d-modeling-animation: 3D Modeling & Animation
@@ -64,8 +62,8 @@ categories:
   containers: Containers
   crm-erp: CRM & ERP
   customer-support: Customer Support
-  databases-analytical: Databases — Analytical
-  databases-relational: Databases — Relational
+  databases-analytical: Databases-Analytical
+  databases-relational: Databases-Relational
   desktop-publishing: Desktop Publishing
   diagramming: Diagramming
   digital-painting: Digital Painting

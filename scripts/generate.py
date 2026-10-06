@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import shutil
-from pathlib import Path
 
 from catalog import (
     ROOT,
@@ -34,11 +33,8 @@ def render_category(category: str, code: str) -> str:
             projects[m["project_id"]]["name"].casefold(),
         ),
     )
-    intro = ui["category_intro"]
     out = [
         f"# {title}",
-        "",
-        intro,
         "",
         f"| {ui['proprietary_product']} | {ui['open_source_alternative']} | {ui['runs_on']} | {ui['install_use']} | {ui['limitations']} | {ui['notes']} |",
         "|---|---|---|---|---|---|---|---|",
@@ -73,22 +69,16 @@ for category in categories:
 def render_index(code: str) -> str:
     locale = locales[code]
     title = locale["ui"]["category_index_title"]
-    intro = locale["ui"]["category_index_intro"]
     items = []
     for category in sorted(
         categories, key=lambda c: locale["categories"][c].casefold()
     ):
-        count = sum(1 for m in mappings if m["category"] == category)
         readme = "README.md" if code == "en" else f"README.{code}.md"
-        items.append(
-            f"- [{locale['categories'][category]}]({category}/{readme}) — {count}"
-        )
+        items.append(f"- [{locale['categories'][category]}]({category}/{readme})")
     back = "../README.fa.md" if code == "fa" else "../README.md"
     return "\n".join(
         [
             f"# {title}",
-            "",
-            intro,
             "",
             *items,
             "",

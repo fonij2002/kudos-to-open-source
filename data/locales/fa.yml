@@ -46,9 +46,7 @@ ui:
   open_source_alternative: جایگزین متن‌باز
   notes: توضیح
   back_to_catalog: بازگشت به فهرست اصلی
-  category_intro: جایگزین‌های متن‌باز برای نرم‌افزارهای تجاری و دارای لایسنس.
-  category_index_title: دسته‌بندی‌ها
-  category_index_intro: فهرست ابزارها بر اساس دسته‌های دقیق. دسته‌ها به‌ترتیب الفبایی نمایش داده می‌شوند.
+  category_index_title: دسته‌بندی‌ها (به ترتیب حروف الفبا)
 
 categories:
   3d-modeling-animation: مدل‌سازی و انیمیشن سه‌بعدی
